@@ -1,0 +1,56 @@
+cat book.json 
+{
+    "title": "程序员自学网",
+    "description": "程序员自学网(www.codezxw.com)提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。",
+    "author": "Albert",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "Home": "https://www.codezxw.com"
+        }
+    },
+    "plugins": [
+        "github@^2.0.0",
+        "edit-link@^2.0.2",
+        "anchors@^0.7.1",
+        "include-codeblock@^3.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters-small@^0.1.7",
+        "anchor-navigation-ex@0.1.8"
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/codezxw/codezxw.github.io"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © 程序员自学网 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "edit-link": {
+            "base": "https://github.com/codezxw/codezxw.github.io",
+            "label": "Edit This Page"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
+
+
+    }
+}
