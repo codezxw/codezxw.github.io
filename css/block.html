@@ -1,0 +1,1245 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CSS block 盒状模型 · 程序员自学网</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="albert">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-copyright/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="position.html" />
+    
+    
+    <link rel="prev" href="color.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">首页</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">学习教程</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../HTML/HTML.html">
+            
+                <a href="../HTML/HTML.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    HTML教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../HTML/intro.html">
+            
+                <a href="../HTML/intro.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    HTML 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../HTML/url.html">
+            
+                <a href="../HTML/url.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    URL 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../HTML/attribute.html">
+            
+                <a href="../HTML/attribute.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    元素的属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../HTML/encode.html">
+            
+                <a href="../HTML/encode.html">
+            
+                    
+                        <b>2.1.4.</b>
+                    
+                    字符编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../HTML/semantic.html">
+            
+                <a href="../HTML/semantic.html">
+            
+                    
+                        <b>2.1.5.</b>
+                    
+                    语义结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../HTML/text.html">
+            
+                <a href="../HTML/text.html">
+            
+                    
+                        <b>2.1.6.</b>
+                    
+                    文本标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../HTML/list.html">
+            
+                <a href="../HTML/list.html">
+            
+                    
+                        <b>2.1.7.</b>
+                    
+                    列表标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../HTML/image.html">
+            
+                <a href="../HTML/image.html">
+            
+                    
+                        <b>2.1.8.</b>
+                    
+                    图像标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="../HTML/link.html">
+            
+                <a href="../HTML/link.html">
+            
+                    
+                        <b>2.1.9.</b>
+                    
+                    链接标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" data-path="../HTML/multimedia.html">
+            
+                <a href="../HTML/multimedia.html">
+            
+                    
+                        <b>2.1.10.</b>
+                    
+                    多媒体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" data-path="../HTML/iframe.html">
+            
+                <a href="../HTML/iframe.html">
+            
+                    
+                        <b>2.1.11.</b>
+                    
+                     iframe标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" data-path="../HTML/table.html">
+            
+                <a href="../HTML/table.html">
+            
+                    
+                        <b>2.1.12.</b>
+                    
+                    表格标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" data-path="../HTML/form.html">
+            
+                <a href="../HTML/form.html">
+            
+                    
+                        <b>2.1.13.</b>
+                    
+                    表单标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.14" data-path="../HTML/elements.html">
+            
+                <a href="../HTML/elements.html">
+            
+                    
+                        <b>2.1.14.</b>
+                    
+                    其他标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    CSS教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="selectors/basic.html">
+            
+                <a href="selectors/basic.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="selectors/pseudo-class.html">
+            
+                <a href="selectors/pseudo-class.html">
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    伪类选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="selectors/attribute.html">
+            
+                <a href="selectors/attribute.html">
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    属性选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="text/text.html">
+            
+                <a href="text/text.html">
+            
+                    
+                        <b>2.2.4.</b>
+                    
+                    Text文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="background.html">
+            
+                <a href="background.html">
+            
+                    
+                        <b>2.2.5.</b>
+                    
+                    CSS Backgrounds(背景)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="font.html">
+            
+                <a href="font.html">
+            
+                    
+                        <b>2.2.6.</b>
+                    
+                    CSS Fonts(字体)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="unit.html">
+            
+                <a href="unit.html">
+            
+                    
+                        <b>2.2.7.</b>
+                    
+                    CSS的单位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="color.html">
+            
+                <a href="color.html">
+            
+                    
+                        <b>2.2.8.</b>
+                    
+                    CSS color颜色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.9" data-path="block.html">
+            
+                <a href="block.html">
+            
+                    
+                        <b>2.2.9.</b>
+                    
+                    CSS block 盒状模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="position.html">
+            
+                <a href="position.html">
+            
+                    
+                        <b>2.2.10.</b>
+                    
+                    CSS 属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="display.html">
+            
+                <a href="display.html">
+            
+                    
+                        <b>2.2.11.</b>
+                    
+                    CSS display属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="position.html">
+            
+                <a href="position.html">
+            
+                    
+                        <b>2.2.12.</b>
+                    
+                    CSS position属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="layout/float.html">
+            
+                <a href="layout/float.html">
+            
+                    
+                        <b>2.2.13.</b>
+                    
+                    CSS float属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="layout/grid.html">
+            
+                <a href="layout/grid.html">
+            
+                    
+                        <b>2.2.14.</b>
+                    
+                    CSS grid布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="layout/table.html">
+            
+                <a href="layout/table.html">
+            
+                    
+                        <b>2.2.15.</b>
+                    
+                    CSS table布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.16" data-path="layout/flexbox.html">
+            
+                <a href="layout/flexbox.html">
+            
+                    
+                        <b>2.2.16.</b>
+                    
+                    CSS flexbox布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="layout/column.html">
+            
+                <a href="layout/column.html">
+            
+                    
+                        <b>2.2.17.</b>
+                    
+                    CSS column布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="media-query.html">
+            
+                <a href="media-query.html">
+            
+                    
+                        <b>2.2.18.</b>
+                    
+                    CSS 响应式布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="animation.html">
+            
+                <a href="animation.html">
+            
+                    
+                        <b>2.2.19.</b>
+                    
+                    CSS 动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="advance/print.html">
+            
+                <a href="advance/print.html">
+            
+                    
+                        <b>2.2.20.</b>
+                    
+                    CSS 打印样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="operation.html">
+            
+                <a href="operation.html">
+            
+                    
+                        <b>2.2.21.</b>
+                    
+                    CSS 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="advanced.html">
+            
+                <a href="advanced.html">
+            
+                    
+                        <b>2.2.22.</b>
+                    
+                    CSS高级功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../CSS3/Introduction.html">
+            
+                <a href="../CSS3/Introduction.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    CSS3教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../CSS3/Animation.html">
+            
+                <a href="../CSS3/Animation.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../CSS3/Border.html">
+            
+                <a href="../CSS3/Border.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    边框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../CSS3/Background.html">
+            
+                <a href="../CSS3/Background.html">
+            
+                    
+                        <b>2.3.3.</b>
+                    
+                    背景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../CSS3/Font.html">
+            
+                <a href="../CSS3/Font.html">
+            
+                    
+                        <b>2.3.4.</b>
+                    
+                    字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../CSS3/Multiple Columns.html">
+            
+                <a href="../CSS3/Multiple Columns.html">
+            
+                    
+                        <b>2.3.5.</b>
+                    
+                    多列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../CSS3/User Interface.html">
+            
+                <a href="../CSS3/User Interface.html">
+            
+                    
+                        <b>2.3.6.</b>
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../CSS3/Transitions Effect.html">
+            
+                <a href="../CSS3/Transitions Effect.html">
+            
+                    
+                        <b>2.3.7.</b>
+                    
+                    过渡效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../CSS3/Text Effect.html">
+            
+                <a href="../CSS3/Text Effect.html">
+            
+                    
+                        <b>2.3.8.</b>
+                    
+                    文本效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.9" data-path="../CSS3/2D Transform.html">
+            
+                <a href="../CSS3/2D Transform.html">
+            
+                    
+                        <b>2.3.9.</b>
+                    
+                    2D
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.10" data-path="../CSS3/3D Transform.html">
+            
+                <a href="../CSS3/3D Transform.html">
+            
+                    
+                        <b>2.3.10.</b>
+                    
+                    3D
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../git/basic.html">
+            
+                <a href="../git/basic.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    git教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../git/branch.html">
+            
+                <a href="../git/branch.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    git重要概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../git/operations.html">
+            
+                <a href="../git/operations.html">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    git基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../git/commands.html">
+            
+                <a href="../git/commands.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">站点信息</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../shengming.html">
+            
+                <a href="../shengming.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >CSS block 盒状模型</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x76D2;&#x72B6;&#x6A21;&#x578B;"><b>2.2.9.1. </b>&#x76D2;&#x72B6;&#x6A21;&#x578B;</a></li><ul><li><span class="title-icon "></span><a href="#width"><b>2.2.9.1.1. </b>width</a></li><li><span class="title-icon "></span><a href="#max-width"><b>2.2.9.1.2. </b>max-width</a></li><li><span class="title-icon "></span><a href="#overflow"><b>2.2.9.1.3. </b>overflow</a></li><li><span class="title-icon "></span><a href="#clip"><b>2.2.9.1.4. </b>clip</a></li><li><span class="title-icon "></span><a href="#clip-path"><b>2.2.9.1.5. </b>clip-path</a></li><li><span class="title-icon "></span><a href="#box-sizing"><b>2.2.9.1.6. </b>box-sizing</a></li><li><span class="title-icon "></span><a href="#object-fit"><b>2.2.9.1.7. </b>object-fit</a></li></ul></ul></div><a href="#&#x76D2;&#x72B6;&#x6A21;&#x578B;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x76D2;&#x72B6;&#x6A21;&#x578B;"><a name="&#x76D2;&#x72B6;&#x6A21;&#x578B;" class="anchor-navigation-ex-anchor" href="#&#x76D2;&#x72B6;&#x6A21;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1. &#x76D2;&#x72B6;&#x6A21;&#x578B;</h1>
+<h2 id="width"><a name="width" class="anchor-navigation-ex-anchor" href="#width"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.1. width</h2>
+<p><code>width: auto</code>&#x8868;&#x793A;&#x7236;&#x5143;&#x7D20;&#x63D0;&#x4F9B;&#x7684;&#x6240;&#x6709;&#x5BBD;&#x5EA6;&#xFF08;100%&#xFF09;&#x3002;</p>
+<h2 id="max-width"><a name="max-width" class="anchor-navigation-ex-anchor" href="#max-width"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.2. max-width</h2>
+<p><code>max-width</code>&#x8BBE;&#x4E3A;<code>none</code>&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;&#x5143;&#x7D20;&#x5360;&#x6EE1;&#x7236;&#x5143;&#x7D20;&#x7684;&#x6574;&#x4E2A;&#x5BBD;&#x5EA6;&#x3002;</p>
+<h2 id="overflow"><a name="overflow" class="anchor-navigation-ex-anchor" href="#overflow"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.3. overflow</h2>
+<p><code>overflow</code>&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x5927;&#x5C0F;&#x8D85;&#x51FA;&#x5BB9;&#x5668;&#x65F6;&#x7684;&#x884C;&#x4E3A;&#x3002;</p>
+<ul>
+<li><code>visible</code>&#xFF1A;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x8868;&#x793A;&#x6EA2;&#x51FA;&#x7684;&#x90E8;&#x5206;&#x53EF;&#x89C1;</li>
+<li><code>hidden</code>&#xFF1A;&#x8868;&#x793A;&#x6EA2;&#x51FA;&#x7684;&#x90E8;&#x5206;&#x4E0D;&#x53EF;&#x89C1;</li>
+<li><code>scroll</code>&#xFF1A;&#x8868;&#x793A;&#x53D1;&#x751F;&#x6EA2;&#x51FA;&#x65F6;&#xFF0C;&#x4F1A;&#x663E;&#x793A;&#x6EDA;&#x52A8;&#x6761;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x62D6;&#x52A8;&#x6EDA;&#x52A8;&#x6761;&#xFF0C;&#x770B;&#x5230;&#x6EA2;&#x51FA;&#x7684;&#x90E8;&#x5206;</li>
+</ul>
+<h2 id="clip"><a name="clip" class="anchor-navigation-ex-anchor" href="#clip"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.4. clip</h2>
+<p><code>clip</code>&#x89C4;&#x5219;&#x6307;&#x5B9A;&#x5143;&#x7D20;&#x8D85;&#x51FA;&#x5BB9;&#x5668;&#x5927;&#x5C0F;&#x65F6;&#xFF0C;&#x5177;&#x4F53;&#x663E;&#x793A;&#x54EA;&#x4E2A;&#x90E8;&#x5206;&#x3002;&#x5B83;&#x53EA;&#x5BF9;&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#xFF08;absolute&#xFF09;&#x548C;&#x56FA;&#x5B9A;&#x5B9A;&#x4F4D;&#xFF08;fixed&#xFF09;&#x7684;&#x5143;&#x7D20;&#x6709;&#x6548;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">clip</span>: <span class="hljs-selector-tag">rect</span>(0<span class="hljs-selector-tag">px</span>, 100<span class="hljs-selector-tag">px</span>, 100<span class="hljs-selector-tag">px</span>, 0<span class="hljs-selector-tag">px</span>);
+</code></pre>
+<p><code>react</code>&#x51FD;&#x6570;&#x56DB;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x542B;&#x4E49;&#x5982;&#x4E0B;&#x3002;</p>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;&#x526A;&#x5207;&#x540E;&#x7684;&#x9876;&#x8FB9;&#x8DDD;&#x79BB;&#x5BB9;&#x5668;&#x7684;&#x9876;&#x8FB9;&#x7684;&#x8DDD;&#x79BB;</li>
+<li>&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;&#x526A;&#x5207;&#x540E;&#x7684;&#x53F3;&#x8FB9;&#x754C;&#x8DDD;&#x79BB;&#x5BB9;&#x5668;&#x7684;&#x5DE6;&#x8FB9;&#x754C;&#x7684;&#x8DDD;&#x79BB;</li>
+<li>&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;&#x526A;&#x5207;&#x540E;&#x7684;&#x5E95;&#x8FB9;&#x8DDD;&#x79BB;&#x5BB9;&#x5668;&#x7684;&#x9876;&#x8FB9;&#x7684;&#x8DDD;&#x79BB;</li>
+<li>&#x7B2C;&#x56DB;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;&#x526A;&#x5207;&#x540E;&#x7684;&#x5DE6;&#x8FB9;&#x754C;&#x8DDD;&#x79BB;&#x5BB9;&#x5668;&#x7684;&#x5DE6;&#x8FB9;&#x754C;&#x7684;&#x8DDD;&#x79BB;</li>
+</ul>
+<pre><code class="lang-css"><span class="hljs-selector-tag">clip</span>: <span class="hljs-selector-tag">rect</span>(<span class="hljs-selector-tag">auto</span> 100<span class="hljs-selector-tag">px</span> <span class="hljs-selector-tag">auto</span> <span class="hljs-selector-tag">auto</span>);
+</code></pre>
+<p>&#x8BE5;&#x89C4;&#x5219;&#x5DF2;&#x7ECF;&#x88AB;&#x5E9F;&#x9664;&#xFF0C;&#x4F46;&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x8FD8;&#x662F;&#x666E;&#x904D;&#x652F;&#x6301;&#x3002;</p>
+<h2 id="clip-path"><a name="clip-path" class="anchor-navigation-ex-anchor" href="#clip-path"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.5. clip-path</h2>
+<p><code>clip-path</code>&#x662F;<code>clip</code>&#x89C4;&#x5219;&#x7684;&#x7EE7;&#x627F;&#x8005;&#xFF0C;&#x7528;&#x6765;&#x526A;&#x5207;&#x5143;&#x7D20;&#x7684;&#x5927;&#x5C0F;&#x3002;&#x5B83;&#x5BF9;&#x6240;&#x6709;&#x5B9A;&#x4F4D;&#x65B9;&#x5F0F;&#x90FD;&#x9002;&#x7528;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">clip</span>: <span class="hljs-selector-tag">rect</span>(110<span class="hljs-selector-tag">px</span>, 160<span class="hljs-selector-tag">px</span>, 170<span class="hljs-selector-tag">px</span>, 60<span class="hljs-selector-tag">px</span>);
+<span class="hljs-comment">/* &#x7B49;&#x540C;&#x4E8E; */</span>
+<span class="hljs-selector-tag">clip-path</span>: <span class="hljs-selector-tag">inset</span>(10<span class="hljs-selector-tag">px</span> 20<span class="hljs-selector-tag">px</span> 30<span class="hljs-selector-tag">px</span> 40<span class="hljs-selector-tag">px</span>);
+</code></pre>
+<p><code>clip-path</code>&#x652F;&#x6301;&#x591A;&#x79CD;&#x8DEF;&#x5F84;&#x5B9A;&#x4E49;&#x65B9;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.clip-me</span> {
+
+  <span class="hljs-comment">/* referencing path from an inline SVG &lt;clipPath&gt; */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">url</span>(#c1);
+
+  <span class="hljs-comment">/* referencing path from external SVG */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">url</span>(path.svg#c1);
+
+  <span class="hljs-comment">/* polygon */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">polygon</span>(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+  <span class="hljs-comment">/* circle */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">circle</span>(30px at 35px 35px);
+
+  <span class="hljs-comment">/* ellipse */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">ellipse</span>(65px 30px at 125px 40px);
+
+  <span class="hljs-comment">/* inset-rectangle() may replace inset() ? */</span>
+  <span class="hljs-comment">/* rectangle() coming in SVG 2 */</span>
+
+  <span class="hljs-comment">/* rounded corners... not sure if a thing anymore */</span>
+  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">inset</span>(10% 10% 10% 10% round 20%, 20%);
+
+}
+</code></pre>
+<h2 id="box-sizing"><a name="box-sizing" class="anchor-navigation-ex-anchor" href="#box-sizing"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.6. box-sizing</h2>
+<p><code>box-sizing</code>&#x6307;&#x5B9A;&#x76D2;&#x72B6;&#x6A21;&#x578B;&#x7684;&#x5BBD;&#x5EA6;&#x8303;&#x56F4;&#x3002;</p>
+<ul>
+<li><code>border-box</code>&#xFF1A;&#x5BBD;&#x5EA6;&#x5305;&#x62EC;padding&#x548C;border</li>
+<li><code>content-box</code>&#xFF1A;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x53EA;&#x5305;&#x62EC;&#x5185;&#x5BB9;&#x533A;&#x7684;&#x5BBD;&#x5EA6;&#xFF0C;&#x4E0D;&#x5305;&#x62EC;padding&#x548C;border</li>
+</ul>
+<pre><code class="lang-css">*, *<span class="hljs-selector-pseudo">:after</span>, *<span class="hljs-selector-pseudo">:before</span> {
+  <span class="hljs-attribute">-webkit-box-sizing</span>: border-box;
+  <span class="hljs-attribute">-moz-box-sizing</span>: border-box;
+  <span class="hljs-attribute">box-sizing</span>: border-box;
+}
+</code></pre>
+<h2 id="object-fit"><a name="object-fit" class="anchor-navigation-ex-anchor" href="#object-fit"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.9.1.7. object-fit</h2>
+<p><code>object-fit</code>&#x547D;&#x4EE4;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5927;&#x5C0F;&#x5E94;&#x8BE5;&#x5982;&#x4F55;&#x9002;&#x5E94;&#x5B83;&#x7684;&#x5BB9;&#x5668;&#xFF0C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x56FE;&#x50CF;&#x3002;&#x5B83;&#x53EF;&#x4EE5;&#x53D6;&#x4EE5;&#x4E0B;&#x7684;&#x503C;&#x3002;</p>
+<ul>
+<li>fill&#xFF1A;&#x5BB9;&#x5668;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#x5C31;&#x662F;&#x5143;&#x7D20;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#xFF0C;&#x4F1A;&#x622A;&#x53BB;&#x6EA2;&#x51FA;&#x7684;&#x90E8;&#x5206;&#x3002;</li>
+<li>contain&#xFF1A;&#x5143;&#x7D20;&#x4F1A;&#x586B;&#x6EE1;&#x5BB9;&#x5668;&#xFF0C;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x957F;&#x5BBD;&#x6BD4;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x6EA2;&#x51FA;&#x3002;</li>
+<li>cover&#xFF1A;&#x5143;&#x7D20;&#x4F1A;&#x586B;&#x6EE1;&#x5BB9;&#x5668;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x6539;&#x53D8;&#x957F;&#x5BBD;&#x6BD4;&#xFF0C;&#x4F46;&#x4E0D;&#x4F1A;&#x6709;&#x6EA2;&#x51FA;&#x3002;</li>
+<li>none&#xFF1A;&#x5143;&#x7D20;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x5C55;&#x793A;&#x6548;&#x679C;&#x7531;&#x9ED8;&#x8BA4;&#x7B97;&#x6CD5;&#x51B3;&#x5B9A;</li>
+<li>scale-down&#xFF1A;&#x5C55;&#x793A;&#x6548;&#x679C;&#x4F1A;&#x9009;&#x62E9;<code>none</code>&#x6216;<code>contain</code>&#x4E4B;&#x4E2D;&#xFF0C;&#x5BF9;&#x8C61;&#x5C3A;&#x5BF8;&#x8F83;&#x5C0F;&#x7684;&#x4E00;&#x4E2A;</li>
+<li>inherit&#xFF1A;&#x4F7F;&#x7528;&#x7236;&#x5143;&#x7D20;&#x7684;&#x503C;</li>
+<li>initial&#xFF1A;&#x4F7F;&#x7528;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x9ED8;&#x8BA4;&#x503C;</li>
+<li>unset&#xFF1A;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x662F;<code>inherit</code>&#x548C;<code>initial</code>&#x7684;&#x7ED3;&#x5408;&#xFF0C;&#x5982;&#x679C;&#x8BE5;&#x5143;&#x7D20;&#x7EE7;&#x627F;&#x7236;&#x5143;&#x7D20;&#xFF0C;&#x5C31;&#x91C7;&#x7528;<code>inherit</code>&#xFF0C;&#x5426;&#x5219;&#x91C7;&#x7528;<code>initial</code></li>
+</ul>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>var gitalk = new Gitalk({ "clientID": "44979d2ff8cc5b4ed224", "clientSecret": "20d817e3f9bbdae3422b5c318c55e26da4574b78","repo": "codezxw.github.io","owner": "codezxw", "admin": ["codezxw"],"id": window.location.pathname,"distractionFreeMode": false});gitalk.render("gitalk-container");</script> 
+
+<footer class="footer"><div class="footer__container--normal" alt="
+https://www.codezxw.com/css/block.html
+">
+<img src="data:image/gif;base64,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" width="170" height="170">
+<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">&#x4F7F;&#x7528;&#x624B;&#x673A;&#x626B;&#x7801;&#x67E5;&#x770B;&#x5F53;&#x524D;&#x9875;&#x9762;<sup class="super">&#xAE;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">&#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51;(www.codezxw.com)&#x63D0;&#x4F9B;&#x7F16;&#x7A0B;&#x7684;&#x57FA;&#x7840;&#x6280;&#x672F;&#x6559;&#x7A0B;, &#x4ECB;&#x7ECD;HTML&#x3001;CSS&#x3001;Javascript&#x3001;Python&#xFF0C;Java&#xFF0C;Ruby&#xFF0C;C&#xFF0C;PHP , MySQL&#x7B49;&#x5404;&#x79CD;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;...</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#xA9; &#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51; all right reserved</p><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #666 !important;"><span style="color: #666 !important;">&#x66F4;&#x65B0;&#x65E5;&#x671F;</span>
+2019-11-27 15:58:31
+</p></div></div></div><div class="box__issues">
+
+</div></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="color.html" class="navigation navigation-prev " aria-label="Previous page: CSS color颜色">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="position.html" class="navigation navigation-next " aria-label="Next page: CSS 属性">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CSS block 盒状模型","level":"2.2.9","depth":2,"next":{"title":"CSS 属性","level":"2.2.10","depth":2,"path":"css/position.md","ref":"css/position.md","articles":[]},"previous":{"title":"CSS color颜色","level":"2.2.8","depth":2,"path":"css/color.md","ref":"css/color.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","code","-sharing","sharing-plus","anchors","include-codeblock","splitter","page-copyright","expandable-chapters-small","anchor-navigation-ex","custom-favicon","klipse","pageview-count","3-ba","-livereload","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"styles":{"website":"styles/website.css"},"splitter":{},"search":{},"page-copyright":{"wisdom":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识...","noPowered":false,"copyright":"Copyright &#169; 程序员自学网","styles (normal, symmetrical)":"normal","style":"normal","isShowQRCode":true,"timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"使用手机扫码查看当前页面","baseUri":"https://www.codezxw.com/","copyrightColor":"#666","description":"更新日期"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"isRewritePageTitle":false,"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":"https://www.codezxw.com/images/favicon.ico","pageview-count":{},"custom-favicon":{},"3-ba":{"configuration":"auto","token":"737beab3da21ecf2001439672b951cff"},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":false,"facebook":true,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"insert-logo":{"style":"background: none; max-height: 120px; min-height: 100px","url":"/images/logo.png"}},"theme":"default","author":"albert","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"程序员自学网","language":"zh-hans","links":{"gitbook":true},"gitbook":"*","description":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识..."},"file":{"path":"css/block.md","mtime":"2019-11-27T07:58:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-10T14:13:34.937Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

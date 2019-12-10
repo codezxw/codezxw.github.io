@@ -1,0 +1,1642 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CSS grid布局 · 程序员自学网</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="albert">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-copyright/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="table.html" />
+    
+    
+    <link rel="prev" href="float.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">首页</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">学习教程</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../HTML/HTML.html">
+            
+                <a href="../../HTML/HTML.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    HTML教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../HTML/intro.html">
+            
+                <a href="../../HTML/intro.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    HTML 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../HTML/url.html">
+            
+                <a href="../../HTML/url.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    URL 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../HTML/attribute.html">
+            
+                <a href="../../HTML/attribute.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    元素的属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../HTML/encode.html">
+            
+                <a href="../../HTML/encode.html">
+            
+                    
+                        <b>2.1.4.</b>
+                    
+                    字符编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../HTML/semantic.html">
+            
+                <a href="../../HTML/semantic.html">
+            
+                    
+                        <b>2.1.5.</b>
+                    
+                    语义结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../HTML/text.html">
+            
+                <a href="../../HTML/text.html">
+            
+                    
+                        <b>2.1.6.</b>
+                    
+                    文本标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../../HTML/list.html">
+            
+                <a href="../../HTML/list.html">
+            
+                    
+                        <b>2.1.7.</b>
+                    
+                    列表标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../../HTML/image.html">
+            
+                <a href="../../HTML/image.html">
+            
+                    
+                        <b>2.1.8.</b>
+                    
+                    图像标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="../../HTML/link.html">
+            
+                <a href="../../HTML/link.html">
+            
+                    
+                        <b>2.1.9.</b>
+                    
+                    链接标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" data-path="../../HTML/multimedia.html">
+            
+                <a href="../../HTML/multimedia.html">
+            
+                    
+                        <b>2.1.10.</b>
+                    
+                    多媒体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" data-path="../../HTML/iframe.html">
+            
+                <a href="../../HTML/iframe.html">
+            
+                    
+                        <b>2.1.11.</b>
+                    
+                     iframe标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" data-path="../../HTML/table.html">
+            
+                <a href="../../HTML/table.html">
+            
+                    
+                        <b>2.1.12.</b>
+                    
+                    表格标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" data-path="../../HTML/form.html">
+            
+                <a href="../../HTML/form.html">
+            
+                    
+                        <b>2.1.13.</b>
+                    
+                    表单标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.14" data-path="../../HTML/elements.html">
+            
+                <a href="../../HTML/elements.html">
+            
+                    
+                        <b>2.1.14.</b>
+                    
+                    其他标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../intro.html">
+            
+                <a href="../intro.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    CSS教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../selectors/basic.html">
+            
+                <a href="../selectors/basic.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../selectors/pseudo-class.html">
+            
+                <a href="../selectors/pseudo-class.html">
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    伪类选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../selectors/attribute.html">
+            
+                <a href="../selectors/attribute.html">
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    属性选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../text/text.html">
+            
+                <a href="../text/text.html">
+            
+                    
+                        <b>2.2.4.</b>
+                    
+                    Text文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../background.html">
+            
+                <a href="../background.html">
+            
+                    
+                        <b>2.2.5.</b>
+                    
+                    CSS Backgrounds(背景)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../font.html">
+            
+                <a href="../font.html">
+            
+                    
+                        <b>2.2.6.</b>
+                    
+                    CSS Fonts(字体)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../unit.html">
+            
+                <a href="../unit.html">
+            
+                    
+                        <b>2.2.7.</b>
+                    
+                    CSS的单位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../color.html">
+            
+                <a href="../color.html">
+            
+                    
+                        <b>2.2.8.</b>
+                    
+                    CSS color颜色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../block.html">
+            
+                <a href="../block.html">
+            
+                    
+                        <b>2.2.9.</b>
+                    
+                    CSS block 盒状模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../position.html">
+            
+                <a href="../position.html">
+            
+                    
+                        <b>2.2.10.</b>
+                    
+                    CSS 属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../display.html">
+            
+                <a href="../display.html">
+            
+                    
+                        <b>2.2.11.</b>
+                    
+                    CSS display属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../position.html">
+            
+                <a href="../position.html">
+            
+                    
+                        <b>2.2.12.</b>
+                    
+                    CSS position属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="float.html">
+            
+                <a href="float.html">
+            
+                    
+                        <b>2.2.13.</b>
+                    
+                    CSS float属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.14" data-path="grid.html">
+            
+                <a href="grid.html">
+            
+                    
+                        <b>2.2.14.</b>
+                    
+                    CSS grid布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="table.html">
+            
+                <a href="table.html">
+            
+                    
+                        <b>2.2.15.</b>
+                    
+                    CSS table布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.16" data-path="flexbox.html">
+            
+                <a href="flexbox.html">
+            
+                    
+                        <b>2.2.16.</b>
+                    
+                    CSS flexbox布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="column.html">
+            
+                <a href="column.html">
+            
+                    
+                        <b>2.2.17.</b>
+                    
+                    CSS column布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="../media-query.html">
+            
+                <a href="../media-query.html">
+            
+                    
+                        <b>2.2.18.</b>
+                    
+                    CSS 响应式布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="../animation.html">
+            
+                <a href="../animation.html">
+            
+                    
+                        <b>2.2.19.</b>
+                    
+                    CSS 动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="../advance/print.html">
+            
+                <a href="../advance/print.html">
+            
+                    
+                        <b>2.2.20.</b>
+                    
+                    CSS 打印样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="../operation.html">
+            
+                <a href="../operation.html">
+            
+                    
+                        <b>2.2.21.</b>
+                    
+                    CSS 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="../advanced.html">
+            
+                <a href="../advanced.html">
+            
+                    
+                        <b>2.2.22.</b>
+                    
+                    CSS高级功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../CSS3/Introduction.html">
+            
+                <a href="../../CSS3/Introduction.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    CSS3教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../CSS3/Animation.html">
+            
+                <a href="../../CSS3/Animation.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../CSS3/Border.html">
+            
+                <a href="../../CSS3/Border.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    边框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../CSS3/Background.html">
+            
+                <a href="../../CSS3/Background.html">
+            
+                    
+                        <b>2.3.3.</b>
+                    
+                    背景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../CSS3/Font.html">
+            
+                <a href="../../CSS3/Font.html">
+            
+                    
+                        <b>2.3.4.</b>
+                    
+                    字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../../CSS3/Multiple Columns.html">
+            
+                <a href="../../CSS3/Multiple Columns.html">
+            
+                    
+                        <b>2.3.5.</b>
+                    
+                    多列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../../CSS3/User Interface.html">
+            
+                <a href="../../CSS3/User Interface.html">
+            
+                    
+                        <b>2.3.6.</b>
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../../CSS3/Transitions Effect.html">
+            
+                <a href="../../CSS3/Transitions Effect.html">
+            
+                    
+                        <b>2.3.7.</b>
+                    
+                    过渡效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../../CSS3/Text Effect.html">
+            
+                <a href="../../CSS3/Text Effect.html">
+            
+                    
+                        <b>2.3.8.</b>
+                    
+                    文本效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.9" data-path="../../CSS3/2D Transform.html">
+            
+                <a href="../../CSS3/2D Transform.html">
+            
+                    
+                        <b>2.3.9.</b>
+                    
+                    2D
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.10" data-path="../../CSS3/3D Transform.html">
+            
+                <a href="../../CSS3/3D Transform.html">
+            
+                    
+                        <b>2.3.10.</b>
+                    
+                    3D
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../git/basic.html">
+            
+                <a href="../../git/basic.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    git教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../../git/branch.html">
+            
+                <a href="../../git/branch.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    git重要概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../../git/operations.html">
+            
+                <a href="../../git/operations.html">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    git基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../../git/commands.html">
+            
+                <a href="../../git/commands.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">站点信息</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../shengming.html">
+            
+                <a href="../../shengming.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >CSS grid布局</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#grid-&#x5E03;&#x5C40;"><b>2.2.14.1. </b>Grid &#x5E03;&#x5C40;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x6982;&#x8FF0;"><b>2.2.14.1.1. </b>&#x4E00;&#x3001;&#x6982;&#x8FF0;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><b>2.2.14.1.2. </b>&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;</a></li><ul><li><span class="title-icon "></span><a href="#21-&#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;"><b>2.2.14.1.2.1. </b>2.1 &#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;</a></li><li><span class="title-icon "></span><a href="#22-&#x884C;&#x548C;&#x5217;"><b>2.2.14.1.2.2. </b>2.2 &#x884C;&#x548C;&#x5217;</a></li><li><span class="title-icon "></span><a href="#23-&#x5355;&#x5143;&#x683C;"><b>2.2.14.1.2.3. </b>2.3 &#x5355;&#x5143;&#x683C;</a></li><li><span class="title-icon "></span><a href="#24-&#x7F51;&#x683C;&#x7EBF;"><b>2.2.14.1.2.4. </b>2.4 &#x7F51;&#x683C;&#x7EBF;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;"><b>2.2.14.1.3. </b>&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;</a></li><ul><li><span class="title-icon "></span><a href="#31-display-&#x5C5E;&#x6027;"><b>2.2.14.1.3.1. </b>3.1 display &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#32-grid-template-columns-&#x5C5E;&#x6027;&#xFF0C;grid-template-rows-&#x5C5E;&#x6027;"><b>2.2.14.1.3.2. </b>3.2 grid-template-columns &#x5C5E;&#x6027;&#xFF0C;grid-template-rows &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#33-grid-row-gap-&#x5C5E;&#x6027;&#xFF0C;grid-column-gap-&#x5C5E;&#x6027;&#xFF0C;grid-gap-&#x5C5E;&#x6027;"><b>2.2.14.1.3.3. </b>3.3 grid-row-gap &#x5C5E;&#x6027;&#xFF0C;grid-column-gap &#x5C5E;&#x6027;&#xFF0C;grid-gap &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#34-grid-template-areas-&#x5C5E;&#x6027;"><b>2.2.14.1.3.4. </b>3.4 grid-template-areas &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#35-grid-auto-flow-&#x5C5E;&#x6027;"><b>2.2.14.1.3.5. </b>3.5 grid-auto-flow &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#36-justify-items-&#x5C5E;&#x6027;&#xFF0C;align-items-&#x5C5E;&#x6027;&#xFF0C;place-items-&#x5C5E;&#x6027;"><b>2.2.14.1.3.6. </b>3.6 justify-items &#x5C5E;&#x6027;&#xFF0C;align-items &#x5C5E;&#x6027;&#xFF0C;place-items &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#37-justify-content-&#x5C5E;&#x6027;&#xFF0C;align-content-&#x5C5E;&#x6027;&#xFF0C;place-content-&#x5C5E;&#x6027;"><b>2.2.14.1.3.7. </b>3.7 justify-content &#x5C5E;&#x6027;&#xFF0C;align-content &#x5C5E;&#x6027;&#xFF0C;place-content &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#38-grid-auto-columns-&#x5C5E;&#x6027;&#xFF0C;grid-auto-rows-&#x5C5E;&#x6027;"><b>2.2.14.1.3.8. </b>3.8 grid-auto-columns &#x5C5E;&#x6027;&#xFF0C;grid-auto-rows &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#39-grid-template-&#x5C5E;&#x6027;&#xFF0C;grid-&#x5C5E;&#x6027;"><b>2.2.14.1.3.9. </b>3.9 grid-template &#x5C5E;&#x6027;&#xFF0C;grid &#x5C5E;&#x6027;</a></li></ul><li><span class="title-icon "></span><a href="#&#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;"><b>2.2.14.1.4. </b>&#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;</a></li><ul><li><span class="title-icon "></span><a href="#41-grid-column-start-&#x5C5E;&#x6027;&#xFF0C;grid-column-end-&#x5C5E;&#x6027;&#xFF0C;grid-row-start-&#x5C5E;&#x6027;&#xFF0C;grid-row-end-&#x5C5E;&#x6027;"><b>2.2.14.1.4.1. </b>4.1 grid-column-start &#x5C5E;&#x6027;&#xFF0C;grid-column-end &#x5C5E;&#x6027;&#xFF0C;grid-row-start &#x5C5E;&#x6027;&#xFF0C;grid-row-end &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#42-grid-column-&#x5C5E;&#x6027;&#xFF0C;grid-row-&#x5C5E;&#x6027;"><b>2.2.14.1.4.2. </b>4.2 grid-column &#x5C5E;&#x6027;&#xFF0C;grid-row &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#43-grid-area-&#x5C5E;&#x6027;"><b>2.2.14.1.4.3. </b>4.3 grid-area &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#44-justify-self-&#x5C5E;&#x6027;&#xFF0C;align-self-&#x5C5E;&#x6027;&#xFF0C;place-self-&#x5C5E;&#x6027;"><b>2.2.14.1.4.4. </b>4.4 justify-self &#x5C5E;&#x6027;&#xFF0C;align-self &#x5C5E;&#x6027;&#xFF0C;place-self &#x5C5E;&#x6027;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;"><b>2.2.14.1.5. </b>&#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;</a></li></ul></ul></div><a href="#grid-&#x5E03;&#x5C40;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="grid-&#x5E03;&#x5C40;"><a name="grid-&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#grid-&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1. Grid &#x5E03;&#x5C40;</h1>
+<h2 id="&#x4E00;&#x3001;&#x6982;&#x8FF0;"><a name="&#x4E00;&#x3001;&#x6982;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x6982;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.1. &#x4E00;&#x3001;&#x6982;&#x8FF0;</h2>
+<p>&#x7F51;&#x683C;&#x5E03;&#x5C40;&#xFF08;Grid&#xFF09;&#x662F;&#x6700;&#x5F3A;&#x5927;&#x7684; CSS &#x5E03;&#x5C40;&#x65B9;&#x6848;&#x3002;</p>
+<p>&#x5B83;&#x5C06;&#x7F51;&#x9875;&#x5212;&#x5206;&#x6210;&#x4E00;&#x4E2A;&#x4E2A;&#x7F51;&#x683C;&#xFF0C;&#x53EF;&#x4EE5;&#x4EFB;&#x610F;&#x7EC4;&#x5408;&#x4E0D;&#x540C;&#x7684;&#x7F51;&#x683C;&#xFF0C;&#x505A;&#x51FA;&#x5404;&#x79CD;&#x5404;&#x6837;&#x7684;&#x5E03;&#x5C40;&#x3002;&#x4EE5;&#x524D;&#xFF0C;&#x53EA;&#x80FD;&#x901A;&#x8FC7;&#x590D;&#x6742;&#x7684; CSS &#x6846;&#x67B6;&#x8FBE;&#x5230;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x73B0;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x5185;&#x7F6E;&#x4E86;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032501.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x8FD9;&#x6837;&#x7684;&#x5E03;&#x5C40;&#xFF0C;&#x5C31;&#x662F; Grid &#x5E03;&#x5C40;&#x7684;&#x62FF;&#x624B;&#x597D;&#x620F;&#x3002;</p>
+<p>Grid &#x5E03;&#x5C40;&#x4E0E; <a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank">Flex &#x5E03;&#x5C40;</a>&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x76F8;&#x4F3C;&#x6027;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x5BB9;&#x5668;&#x5185;&#x90E8;&#x591A;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5B83;&#x4EEC;&#x4E5F;&#x5B58;&#x5728;&#x91CD;&#x5927;&#x533A;&#x522B;&#x3002;</p>
+<p>Flex &#x5E03;&#x5C40;&#x662F;&#x8F74;&#x7EBF;&#x5E03;&#x5C40;&#xFF0C;&#x53EA;&#x80FD;&#x6307;&#x5B9A;&#x201C;&#x9879;&#x76EE;&#x201D;&#x9488;&#x5BF9;&#x8F74;&#x7EBF;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x4F5C;&#x662F;<strong>&#x4E00;&#x7EF4;&#x5E03;&#x5C40;</strong>&#x3002;Grid &#x5E03;&#x5C40;&#x5219;&#x662F;&#x5C06;&#x5BB9;&#x5668;&#x5212;&#x5206;&#x6210;&#x201C;&#x884C;&#x201D;&#x548C;&#x201C;&#x5217;&#x201D;&#xFF0C;&#x4EA7;&#x751F;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x6307;&#x5B9A;&#x201C;&#x9879;&#x76EE;&#x6240;&#x5728;&#x201D;&#x7684;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x4F5C;&#x662F;<strong>&#x4E8C;&#x7EF4;&#x5E03;&#x5C40;</strong>&#x3002;Grid &#x5E03;&#x5C40;&#x8FDC;&#x6BD4; Flex &#x5E03;&#x5C40;&#x5F3A;&#x5927;&#x3002;</p>
+<h2 id="&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><a name="&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.2. &#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;</h2>
+<p>&#x5B66;&#x4E60; Grid &#x5E03;&#x5C40;&#x4E4B;&#x524D;&#xFF0C;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x6982;&#x5FF5;&#x3002;</p>
+<h3 id="21-&#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;"><a name="21-&#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;" class="anchor-navigation-ex-anchor" href="#21-&#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.2.1. 2.1 &#x5BB9;&#x5668;&#x548C;&#x9879;&#x76EE;</h3>
+<p>&#x91C7;&#x7528;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x7684;&#x533A;&#x57DF;&#xFF0C;&#x79F0;&#x4E3A;&#x201C;&#x5BB9;&#x5668;&#x201D;&#xFF08;container&#xFF09;&#x3002;&#x5BB9;&#x5668;&#x5185;&#x90E8;&#x91C7;&#x7528;&#x7F51;&#x683C;&#x5B9A;&#x4F4D;&#x7684;&#x5B50;&#x5143;&#x7D20;&#xFF0C;&#x79F0;&#x4E3A;&#x201C;&#x9879;&#x76EE;&#x201D;&#xFF08;item&#xFF09;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x6700;&#x5916;&#x5C42;&#x7684;<code>&lt;div&gt;</code>&#x5143;&#x7D20;&#x5C31;&#x662F;&#x5BB9;&#x5668;&#xFF0C;&#x5185;&#x5C42;&#x7684;&#x4E09;&#x4E2A;<code>&lt;div&gt;</code>&#x5143;&#x7D20;&#x5C31;&#x662F;&#x9879;&#x76EE;&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x9879;&#x76EE;&#x53EA;&#x80FD;&#x662F;&#x5BB9;&#x5668;&#x7684;&#x9876;&#x5C42;&#x5B50;&#x5143;&#x7D20;&#xFF0C;&#x4E0D;&#x5305;&#x542B;&#x9879;&#x76EE;&#x7684;&#x5B50;&#x5143;&#x7D20;&#xFF0C;&#x6BD4;&#x5982;&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x7684;<code>&lt;p&gt;</code>&#x5143;&#x7D20;&#x5C31;&#x4E0D;&#x662F;&#x9879;&#x76EE;&#x3002;Grid &#x5E03;&#x5C40;&#x53EA;&#x5BF9;&#x9879;&#x76EE;&#x751F;&#x6548;&#x3002;</p>
+<h3 id="22-&#x884C;&#x548C;&#x5217;"><a name="22-&#x884C;&#x548C;&#x5217;" class="anchor-navigation-ex-anchor" href="#22-&#x884C;&#x548C;&#x5217;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.2.2. 2.2 &#x884C;&#x548C;&#x5217;</h3>
+<p>&#x5BB9;&#x5668;&#x91CC;&#x9762;&#x7684;&#x6C34;&#x5E73;&#x533A;&#x57DF;&#x79F0;&#x4E3A;&#x201C;&#x884C;&#x201D;&#xFF08;row&#xFF09;&#xFF0C;&#x5782;&#x76F4;&#x533A;&#x57DF;&#x79F0;&#x4E3A;&#x201C;&#x5217;&#x201D;&#xFF08;column&#xFF09;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032502.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x4E2D;&#xFF0C;&#x6C34;&#x5E73;&#x7684;&#x6DF1;&#x8272;&#x533A;&#x57DF;&#x5C31;&#x662F;&#x201C;&#x884C;&#x201D;&#xFF0C;&#x5782;&#x76F4;&#x7684;&#x6DF1;&#x8272;&#x533A;&#x57DF;&#x5C31;&#x662F;&#x201C;&#x5217;&#x201D;&#x3002;</p>
+<h3 id="23-&#x5355;&#x5143;&#x683C;"><a name="23-&#x5355;&#x5143;&#x683C;" class="anchor-navigation-ex-anchor" href="#23-&#x5355;&#x5143;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.2.3. 2.3 &#x5355;&#x5143;&#x683C;</h3>
+<p>&#x884C;&#x548C;&#x5217;&#x7684;&#x4EA4;&#x53C9;&#x533A;&#x57DF;&#xFF0C;&#x79F0;&#x4E3A;&#x201C;&#x5355;&#x5143;&#x683C;&#x201D;&#xFF08;cell&#xFF09;&#x3002;</p>
+<p>&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;<code>n</code>&#x884C;&#x548C;<code>m</code>&#x5217;&#x4F1A;&#x4EA7;&#x751F;<code>n x m</code>&#x4E2A;&#x5355;&#x5143;&#x683C;&#x3002;&#x6BD4;&#x5982;&#xFF0C;3&#x884C;3&#x5217;&#x4F1A;&#x4EA7;&#x751F;9&#x4E2A;&#x5355;&#x5143;&#x683C;&#x3002;</p>
+<h3 id="24-&#x7F51;&#x683C;&#x7EBF;"><a name="24-&#x7F51;&#x683C;&#x7EBF;" class="anchor-navigation-ex-anchor" href="#24-&#x7F51;&#x683C;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.2.4. 2.4 &#x7F51;&#x683C;&#x7EBF;</h3>
+<p>&#x5212;&#x5206;&#x7F51;&#x683C;&#x7684;&#x7EBF;&#xFF0C;&#x79F0;&#x4E3A;&#x201C;&#x7F51;&#x683C;&#x7EBF;&#x201D;&#xFF08;grid line&#xFF09;&#x3002;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x5212;&#x5206;&#x51FA;&#x884C;&#xFF0C;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x5212;&#x5206;&#x51FA;&#x5217;&#x3002;</p>
+<p>&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;<code>n</code>&#x884C;&#x6709;<code>n + 1</code>&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;<code>m</code>&#x5217;&#x6709;<code>m + 1</code>&#x6839;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;&#x6BD4;&#x5982;&#x4E09;&#x884C;&#x5C31;&#x6709;&#x56DB;&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032503.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x662F;&#x4E00;&#x4E2A; 4 x 4 &#x7684;&#x7F51;&#x683C;&#xFF0C;&#x5171;&#x6709;5&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x548C;5&#x6839;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x3002;</p>
+<h2 id="&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;"><a name="&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3. &#x4E09;&#x3001;&#x5BB9;&#x5668;&#x5C5E;&#x6027;</h2>
+<p>Grid &#x5E03;&#x5C40;&#x7684;&#x5C5E;&#x6027;&#x5206;&#x6210;&#x4E24;&#x7C7B;&#x3002;&#x4E00;&#x7C7B;&#x5B9A;&#x4E49;&#x5728;&#x5BB9;&#x5668;&#x4E0A;&#x9762;&#xFF0C;&#x79F0;&#x4E3A;&#x5BB9;&#x5668;&#x5C5E;&#x6027;&#xFF1B;&#x53E6;&#x4E00;&#x7C7B;&#x5B9A;&#x4E49;&#x5728;&#x9879;&#x76EE;&#x4E0A;&#x9762;&#xFF0C;&#x79F0;&#x4E3A;&#x9879;&#x76EE;&#x5C5E;&#x6027;&#x3002;&#x8FD9;&#x90E8;&#x5206;&#x5148;&#x4ECB;&#x7ECD;&#x5BB9;&#x5668;&#x5C5E;&#x6027;&#x3002;</p>
+<h3 id="31-display-&#x5C5E;&#x6027;"><a name="31-display-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#31-display-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.1. 3.1 display &#x5C5E;&#x6027;</h3>
+<p><code>display: grid</code>&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x91C7;&#x7528;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">display</span>: grid;
+}
+</code></pre>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032504.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x662F;<code>display: grid</code>&#x7684;<a href="https://jsbin.com/guvivum/edit?html,css,output" target="_blank">&#x6548;&#x679C;</a>&#x3002;</p>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5BB9;&#x5668;&#x5143;&#x7D20;&#x90FD;&#x662F;&#x5757;&#x7EA7;&#x5143;&#x7D20;&#xFF0C;&#x4F46;&#x4E5F;&#x53EF;&#x4EE5;&#x8BBE;&#x6210;&#x884C;&#x5185;&#x5143;&#x7D20;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">display</span>: inline-grid;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x6307;&#x5B9A;<code>div</code>&#x662F;&#x4E00;&#x4E2A;&#x884C;&#x5185;&#x5143;&#x7D20;&#xFF0C;&#x8BE5;&#x5143;&#x7D20;&#x5185;&#x90E8;&#x91C7;&#x7528;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032505.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x662F;<code>display: inline-grid</code>&#x7684;<a href="https://jsbin.com/qatitav/edit?html,css,output" target="_blank">&#x6548;&#x679C;</a>&#x3002;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x8BBE;&#x4E3A;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x4EE5;&#x540E;&#xFF0C;&#x5BB9;&#x5668;&#x7684;<code>float</code>&#x3001;<code>display: inline-block</code>&#x3001;<code>display: table-cell</code>&#x3001;<code>vertical-align</code>&#x548C;<code>column-*</code>&#x7B49;&#x8BBE;&#x7F6E;&#x90FD;&#x5C06;&#x5931;&#x6548;&#x3002;</p>
+</blockquote>
+<h3 id="32-grid-template-columns-&#x5C5E;&#x6027;&#xFF0C;grid-template-rows-&#x5C5E;&#x6027;"><a name="32-grid-template-columns-&#x5C5E;&#x6027;&#xFF0C;grid-template-rows-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#32-grid-template-columns-&#x5C5E;&#x6027;&#xFF0C;grid-template-rows-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.2. 3.2 grid-template-columns &#x5C5E;&#x6027;&#xFF0C;grid-template-rows &#x5C5E;&#x6027;</h3>
+<p>&#x5BB9;&#x5668;&#x6307;&#x5B9A;&#x4E86;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x4EE5;&#x540E;&#xFF0C;&#x63A5;&#x7740;&#x5C31;&#x8981;&#x5212;&#x5206;&#x884C;&#x548C;&#x5217;&#x3002;<code>grid-template-columns</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x6BCF;&#x4E00;&#x5217;&#x7684;&#x5217;&#x5BBD;&#xFF0C;<code>grid-template-rows</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x6BCF;&#x4E00;&#x884C;&#x7684;&#x884C;&#x9AD8;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+}
+</code></pre>
+<p><a href="https://jsbin.com/qiginur/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x6307;&#x5B9A;&#x4E86;&#x4E00;&#x4E2A;&#x4E09;&#x884C;&#x4E09;&#x5217;&#x7684;&#x7F51;&#x683C;&#xFF0C;&#x5217;&#x5BBD;&#x548C;&#x884C;&#x9AD8;&#x90FD;&#x662F;<code>100px</code>&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032506.png" alt=""></p>
+<p>&#x9664;&#x4E86;&#x4F7F;&#x7528;&#x7EDD;&#x5BF9;&#x5355;&#x4F4D;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x767E;&#x5206;&#x6BD4;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">33.33%</span> <span class="hljs-number">33.33%</span> <span class="hljs-number">33.33%</span>;
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-number">33.33%</span> <span class="hljs-number">33.33%</span> <span class="hljs-number">33.33%</span>;
+}
+</code></pre>
+<p><strong>&#xFF08;1&#xFF09;repeat()</strong></p>
+<p>&#x6709;&#x65F6;&#x5019;&#xFF0C;&#x91CD;&#x590D;&#x5199;&#x540C;&#x6837;&#x7684;&#x503C;&#x975E;&#x5E38;&#x9EBB;&#x70E6;&#xFF0C;&#x5C24;&#x5176;&#x7F51;&#x683C;&#x5F88;&#x591A;&#x65F6;&#x3002;&#x8FD9;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>repeat()</code>&#x51FD;&#x6570;&#xFF0C;&#x7B80;&#x5316;&#x91CD;&#x590D;&#x7684;&#x503C;&#x3002;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x7528;<code>repeat()</code>&#x6539;&#x5199;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-built_in">repeat</span>(3, 33.33%);
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-built_in">repeat</span>(3, 33.33%);
+}
+</code></pre>
+<p><code>repeat()</code>&#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x91CD;&#x590D;&#x7684;&#x6B21;&#x6570;&#xFF08;&#x4E0A;&#x4F8B;&#x662F;3&#xFF09;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x6240;&#x8981;&#x91CD;&#x590D;&#x7684;&#x503C;&#x3002;</p>
+<p><code>repeat()</code>&#x91CD;&#x590D;&#x67D0;&#x79CD;&#x6A21;&#x5F0F;&#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#x7684;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-template-columns</span>: <span class="hljs-selector-tag">repeat</span>(2, 100<span class="hljs-selector-tag">px</span> 20<span class="hljs-selector-tag">px</span> 80<span class="hljs-selector-tag">px</span>);
+</code></pre>
+<p><a href="https://jsbin.com/cokohu/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x5B9A;&#x4E49;&#x4E86;6&#x5217;&#xFF0C;&#x7B2C;&#x4E00;&#x5217;&#x548C;&#x7B2C;&#x56DB;&#x5217;&#x7684;&#x5BBD;&#x5EA6;&#x4E3A;<code>100px</code>&#xFF0C;&#x7B2C;&#x4E8C;&#x5217;&#x548C;&#x7B2C;&#x4E94;&#x5217;&#x4E3A;<code>20px</code>&#xFF0C;&#x7B2C;&#x4E09;&#x5217;&#x548C;&#x7B2C;&#x516D;&#x5217;&#x4E3A;<code>80px</code>&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032507.png" alt=""></p>
+<p><strong>&#xFF08;2&#xFF09;auto-fill &#x5173;&#x952E;&#x5B57;</strong></p>
+<p>&#x6709;&#x65F6;&#xFF0C;&#x5355;&#x5143;&#x683C;&#x7684;&#x5927;&#x5C0F;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5BB9;&#x5668;&#x7684;&#x5927;&#x5C0F;&#x4E0D;&#x786E;&#x5B9A;&#x3002;&#x5982;&#x679C;&#x5E0C;&#x671B;&#x6BCF;&#x4E00;&#x884C;&#xFF08;&#x6216;&#x6BCF;&#x4E00;&#x5217;&#xFF09;&#x5BB9;&#x7EB3;&#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x7684;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x8FD9;&#x65F6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>auto-fill</code>&#x5173;&#x952E;&#x5B57;&#x8868;&#x793A;&#x81EA;&#x52A8;&#x586B;&#x5145;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-built_in">repeat</span>(auto-fill, 100px);
+}
+</code></pre>
+<p><a href="https://jsbin.com/himoku/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#x6BCF;&#x5217;&#x5BBD;&#x5EA6;<code>100px</code>&#xFF0C;&#x7136;&#x540E;&#x81EA;&#x52A8;&#x586B;&#x5145;&#xFF0C;&#x76F4;&#x5230;&#x5BB9;&#x5668;&#x4E0D;&#x80FD;&#x653E;&#x7F6E;&#x66F4;&#x591A;&#x7684;&#x5217;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032508.png" alt=""></p>
+<p><strong>&#xFF08;3&#xFF09;fr &#x5173;&#x952E;&#x5B57;</strong></p>
+<p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x8868;&#x793A;&#x6BD4;&#x4F8B;&#x5173;&#x7CFB;&#xFF0C;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x63D0;&#x4F9B;&#x4E86;<code>fr</code>&#x5173;&#x952E;&#x5B57;&#xFF08;fraction &#x7684;&#x7F29;&#x5199;&#xFF0C;&#x610F;&#x4E3A;&#x201C;&#x7247;&#x6BB5;&#x201D;&#xFF09;&#x3002;&#x5982;&#x679C;&#x4E24;&#x5217;&#x7684;&#x5BBD;&#x5EA6;&#x5206;&#x522B;&#x4E3A;<code>1fr</code>&#x548C;<code>2fr</code>&#xFF0C;&#x5C31;&#x8868;&#x793A;&#x540E;&#x8005;&#x662F;&#x524D;&#x8005;&#x7684;&#x4E24;&#x500D;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">1</span>fr <span class="hljs-number">1</span>fr;
+}
+</code></pre>
+<p><a href="https://jsbin.com/hadexek/edit?html,css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#x4E24;&#x4E2A;&#x76F8;&#x540C;&#x5BBD;&#x5EA6;&#x7684;&#x5217;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/1_bg2019032509.png" alt=""></p>
+<p><code>fr</code>&#x53EF;&#x4EE5;&#x4E0E;&#x7EDD;&#x5BF9;&#x957F;&#x5EA6;&#x7684;&#x5355;&#x4F4D;&#x7ED3;&#x5408;&#x4F7F;&#x7528;&#xFF0C;&#x8FD9;&#x65F6;&#x4F1A;&#x975E;&#x5E38;&#x65B9;&#x4FBF;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">150px</span> <span class="hljs-number">1</span>fr <span class="hljs-number">2</span>fr;
+}
+</code></pre>
+<p><a href="https://jsbin.com/remowec/edit?html,css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#xFF0C;&#x7B2C;&#x4E00;&#x5217;&#x7684;&#x5BBD;&#x5EA6;&#x4E3A;150&#x50CF;&#x7D20;&#xFF0C;&#x7B2C;&#x4E8C;&#x5217;&#x7684;&#x5BBD;&#x5EA6;&#x662F;&#x7B2C;&#x4E09;&#x5217;&#x7684;&#x4E00;&#x534A;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032510.png" alt=""></p>
+<p><strong>&#xFF08;4&#xFF09;minmax()</strong></p>
+<p><code>minmax()</code>&#x51FD;&#x6570;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;&#x957F;&#x5EA6;&#x8303;&#x56F4;&#xFF0C;&#x8868;&#x793A;&#x957F;&#x5EA6;&#x5C31;&#x5728;&#x8FD9;&#x4E2A;&#x8303;&#x56F4;&#x4E4B;&#x4E2D;&#x3002;&#x5B83;&#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5206;&#x522B;&#x4E3A;&#x6700;&#x5C0F;&#x503C;&#x548C;&#x6700;&#x5927;&#x503C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-template-columns</span>: 1<span class="hljs-selector-tag">fr</span> 1<span class="hljs-selector-tag">fr</span> <span class="hljs-selector-tag">minmax</span>(100<span class="hljs-selector-tag">px</span>, 1<span class="hljs-selector-tag">fr</span>);
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;<code>minmax(100px, 1fr)</code>&#x8868;&#x793A;&#x5217;&#x5BBD;&#x4E0D;&#x5C0F;&#x4E8E;<code>100px</code>&#xFF0C;&#x4E0D;&#x5927;&#x4E8E;<code>1fr</code>&#x3002;</p>
+<p><strong>&#xFF08;5&#xFF09;auto &#x5173;&#x952E;&#x5B57;</strong></p>
+<p><code>auto</code>&#x5173;&#x952E;&#x5B57;&#x8868;&#x793A;&#x7531;&#x6D4F;&#x89C8;&#x5668;&#x81EA;&#x5DF1;&#x51B3;&#x5B9A;&#x957F;&#x5EA6;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-template-columns</span>: 100<span class="hljs-selector-tag">px</span> <span class="hljs-selector-tag">auto</span> 100<span class="hljs-selector-tag">px</span>;
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x7B2C;&#x4E8C;&#x5217;&#x7684;&#x5BBD;&#x5EA6;&#xFF0C;&#x57FA;&#x672C;&#x4E0A;&#x7B49;&#x4E8E;&#x8BE5;&#x5217;&#x5355;&#x5143;&#x683C;&#x7684;&#x6700;&#x5927;&#x5BBD;&#x5EA6;&#xFF0C;&#x9664;&#x975E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x8BBE;&#x7F6E;&#x4E86;<code>min-width</code>&#xFF0C;&#x4E14;&#x8FD9;&#x4E2A;&#x503C;&#x5927;&#x4E8E;&#x6700;&#x5927;&#x5BBD;&#x5EA6;&#x3002;</p>
+<p><strong>&#xFF08;6&#xFF09;&#x7F51;&#x683C;&#x7EBF;&#x7684;&#x540D;&#x79F0;</strong></p>
+<p><code>grid-template-columns</code>&#x5C5E;&#x6027;&#x548C;<code>grid-template-rows</code>&#x5C5E;&#x6027;&#x91CC;&#x9762;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x65B9;&#x62EC;&#x53F7;&#xFF0C;&#x6307;&#x5B9A;&#x6BCF;&#x4E00;&#x6839;&#x7F51;&#x683C;&#x7EBF;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x65B9;&#x4FBF;&#x4EE5;&#x540E;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: [c1] <span class="hljs-number">100px</span> [c2] <span class="hljs-number">100px</span> [c3] auto [c4];
+  <span class="hljs-attribute">grid-template-rows</span>: [r1] <span class="hljs-number">100px</span> [r2] <span class="hljs-number">100px</span> [r3] auto [r4];
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x6307;&#x5B9A;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x4E3A;3&#x884C; x 3&#x5217;&#xFF0C;&#x56E0;&#x6B64;&#x6709;4&#x6839;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x548C;4&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x3002;&#x65B9;&#x62EC;&#x53F7;&#x91CC;&#x9762;&#x4F9D;&#x6B21;&#x662F;&#x8FD9;&#x516B;&#x6839;&#x7EBF;&#x7684;&#x540D;&#x5B57;&#x3002;</p>
+<p>&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x5141;&#x8BB8;&#x540C;&#x4E00;&#x6839;&#x7EBF;&#x6709;&#x591A;&#x4E2A;&#x540D;&#x5B57;&#xFF0C;&#x6BD4;&#x5982;<code>[fifth-line row-5]</code>&#x3002;</p>
+<p><strong>&#xFF08;7&#xFF09;&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;</strong></p>
+<p><code>grid-template-columns</code>&#x5C5E;&#x6027;&#x5BF9;&#x4E8E;&#x7F51;&#x9875;&#x5E03;&#x5C40;&#x975E;&#x5E38;&#x6709;&#x7528;&#x3002;&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;&#x53EA;&#x9700;&#x8981;&#x4E00;&#x884C;&#x4EE3;&#x7801;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.wrapper</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">70%</span> <span class="hljs-number">30%</span>;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x5C06;&#x5DE6;&#x8FB9;&#x680F;&#x8BBE;&#x4E3A;70%&#xFF0C;&#x53F3;&#x8FB9;&#x680F;&#x8BBE;&#x4E3A;30%&#x3002;</p>
+<p>&#x4F20;&#x7EDF;&#x7684;&#x5341;&#x4E8C;&#x7F51;&#x683C;&#x5E03;&#x5C40;&#xFF0C;&#x5199;&#x8D77;&#x6765;&#x4E5F;&#x5F88;&#x5BB9;&#x5668;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-template-columns</span>: <span class="hljs-selector-tag">repeat</span>(12, 1<span class="hljs-selector-tag">fr</span>);
+</code></pre>
+<h3 id="33-grid-row-gap-&#x5C5E;&#x6027;&#xFF0C;grid-column-gap-&#x5C5E;&#x6027;&#xFF0C;grid-gap-&#x5C5E;&#x6027;"><a name="33-grid-row-gap-&#x5C5E;&#x6027;&#xFF0C;grid-column-gap-&#x5C5E;&#x6027;&#xFF0C;grid-gap-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#33-grid-row-gap-&#x5C5E;&#x6027;&#xFF0C;grid-column-gap-&#x5C5E;&#x6027;&#xFF0C;grid-gap-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.3. 3.3 grid-row-gap &#x5C5E;&#x6027;&#xFF0C;grid-column-gap &#x5C5E;&#x6027;&#xFF0C;grid-gap &#x5C5E;&#x6027;</h3>
+<p><code>grid-row-gap</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x884C;&#x4E0E;&#x884C;&#x7684;&#x95F4;&#x9694;&#xFF08;&#x884C;&#x95F4;&#x8DDD;&#xFF09;&#xFF0C;<code>grid-column-gap</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5217;&#x4E0E;&#x5217;&#x7684;&#x95F4;&#x9694;&#xFF08;&#x5217;&#x95F4;&#x8DDD;&#xFF09;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">grid-row-gap</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">grid-column-gap</span>: <span class="hljs-number">20px</span>;
+}
+</code></pre>
+<p><a href="https://jsbin.com/mezufab/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x4E2D;&#xFF0C;<code>grid-row-gap</code>&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x884C;&#x95F4;&#x8DDD;&#xFF0C;<code>grid-column-gap</code>&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x5217;&#x95F4;&#x8DDD;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032511.png" alt=""></p>
+<p><code>grid-gap</code>&#x5C5E;&#x6027;&#x662F;<code>grid-column-gap</code>&#x548C;<code>grid-row-gap</code>&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#xFF0C;&#x8BED;&#x6CD5;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-gap</span>: &lt;<span class="hljs-selector-tag">grid-row-gap</span>&gt; &lt;<span class="hljs-selector-tag">grid-column-gap</span>&gt;;
+</code></pre>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x4E0A;&#x9762;&#x4E00;&#x6BB5; CSS &#x4EE3;&#x7801;&#x7B49;&#x540C;&#x4E8E;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">grid-gap</span>: <span class="hljs-number">20px</span> <span class="hljs-number">20px</span>;
+}
+</code></pre>
+<p>&#x5982;&#x679C;<code>grid-gap</code>&#x7701;&#x7565;&#x4E86;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x8BA4;&#x4E3A;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#x7B49;&#x4E8E;&#x7B2C;&#x4E00;&#x4E2A;&#x503C;&#x3002;</p>
+<blockquote>
+<p>&#x6839;&#x636E;&#x6700;&#x65B0;&#x6807;&#x51C6;&#xFF0C;&#x4E0A;&#x9762;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#x540D;&#x7684;<code>grid-</code>&#x524D;&#x7F00;&#x5DF2;&#x7ECF;&#x5220;&#x9664;&#xFF0C;<code>grid-column-gap</code>&#x548C;<code>grid-row-gap</code>&#x5199;&#x6210;<code>column-gap</code>&#x548C;<code>row-gap</code>&#xFF0C;<code>grid-gap</code>&#x5199;&#x6210;<code>gap</code>&#x3002;</p>
+</blockquote>
+<h3 id="34-grid-template-areas-&#x5C5E;&#x6027;"><a name="34-grid-template-areas-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#34-grid-template-areas-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.4. 3.4 grid-template-areas &#x5C5E;&#x6027;</h3>
+<p>&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x5141;&#x8BB8;&#x6307;&#x5B9A;&#x201C;&#x533A;&#x57DF;&#x201D;&#xFF08;area&#xFF09;&#xFF0C;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x7531;&#x5355;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x5355;&#x5143;&#x683C;&#x7EC4;&#x6210;&#x3002;<code>grid-template-areas</code>&#x5C5E;&#x6027;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x533A;&#x57DF;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">grid-template-areas</span>: <span class="hljs-string">&apos;a b c&apos;</span>
+                       <span class="hljs-string">&apos;d e f&apos;</span>
+                       <span class="hljs-string">&apos;g h i&apos;</span>;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x5148;&#x5212;&#x5206;&#x51FA;9&#x4E2A;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x5176;&#x5B9A;&#x540D;&#x4E3A;<code>a</code>&#x5230;<code>i</code>&#x7684;&#x4E5D;&#x4E2A;&#x533A;&#x57DF;&#xFF0C;&#x5206;&#x522B;&#x5BF9;&#x5E94;&#x8FD9;&#x4E5D;&#x4E2A;&#x5355;&#x5143;&#x683C;&#x3002;</p>
+<p>&#x591A;&#x4E2A;&#x5355;&#x5143;&#x683C;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x7684;&#x5199;&#x6CD5;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css">grid-template-areas: &apos;a a a&apos;
+                     &apos;b b b&apos;
+                     &apos;c c c&apos;;
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x5C06;9&#x4E2A;&#x5355;&#x5143;&#x683C;&#x5206;&#x6210;<code>a</code>&#x3001;<code>b</code>&#x3001;<code>c</code>&#x4E09;&#x4E2A;&#x533A;&#x57DF;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-template-areas</span>: &quot;<span class="hljs-selector-tag">header</span> <span class="hljs-selector-tag">header</span> <span class="hljs-selector-tag">header</span>&quot;
+                     &quot;<span class="hljs-selector-tag">main</span> <span class="hljs-selector-tag">main</span> <span class="hljs-selector-tag">sidebar</span>&quot;
+                     &quot;<span class="hljs-selector-tag">footer</span> <span class="hljs-selector-tag">footer</span> <span class="hljs-selector-tag">footer</span>&quot;;
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x9876;&#x90E8;&#x662F;&#x9875;&#x7709;&#x533A;&#x57DF;<code>header</code>&#xFF0C;&#x5E95;&#x90E8;&#x662F;&#x9875;&#x811A;&#x533A;&#x57DF;<code>footer</code>&#xFF0C;&#x4E2D;&#x95F4;&#x90E8;&#x5206;&#x5219;&#x4E3A;<code>main</code>&#x548C;<code>sidebar</code>&#x3002;</p>
+<p>&#x5982;&#x679C;&#x67D0;&#x4E9B;&#x533A;&#x57DF;&#x4E0D;&#x9700;&#x8981;&#x5229;&#x7528;&#xFF0C;&#x5219;&#x4F7F;&#x7528;&#x201C;&#x70B9;&#x201D;&#xFF08;<code>.</code>&#xFF09;&#x8868;&#x793A;&#x3002;</p>
+<pre><code class="lang-css">grid-template-areas: &apos;a . c&apos;
+                     &apos;d . f&apos;
+                     &apos;g . i&apos;;
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x4E2D;&#x95F4;&#x4E00;&#x5217;&#x4E3A;&#x70B9;&#xFF0C;&#x8868;&#x793A;&#x6CA1;&#x6709;&#x7528;&#x5230;&#x8BE5;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x6216;&#x8005;&#x8BE5;&#x5355;&#x5143;&#x683C;&#x4E0D;&#x5C5E;&#x4E8E;&#x4EFB;&#x4F55;&#x533A;&#x57DF;&#x3002;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x533A;&#x57DF;&#x7684;&#x547D;&#x540D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x7F51;&#x683C;&#x7EBF;&#x3002;&#x6BCF;&#x4E2A;&#x533A;&#x57DF;&#x7684;&#x8D77;&#x59CB;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x547D;&#x540D;&#x4E3A;<code>&#x533A;&#x57DF;&#x540D;-start</code>&#xFF0C;&#x7EC8;&#x6B62;&#x7F51;&#x683C;&#x7EBF;&#x81EA;&#x52A8;&#x547D;&#x540D;&#x4E3A;<code>&#x533A;&#x57DF;&#x540D;-end</code>&#x3002;</p>
+<p>&#x6BD4;&#x5982;&#xFF0C;&#x533A;&#x57DF;&#x540D;&#x4E3A;<code>header</code>&#xFF0C;&#x5219;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;&#x7684;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x548C;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x53EB;&#x505A;<code>header-start</code>&#xFF0C;&#x7EC8;&#x6B62;&#x4F4D;&#x7F6E;&#x7684;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x548C;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x53EB;&#x505A;<code>header-end</code>&#x3002;</p>
+</blockquote>
+<h3 id="35-grid-auto-flow-&#x5C5E;&#x6027;"><a name="35-grid-auto-flow-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#35-grid-auto-flow-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.5. 3.5 grid-auto-flow &#x5C5E;&#x6027;</h3>
+<p>&#x5212;&#x5206;&#x7F51;&#x683C;&#x4EE5;&#x540E;&#xFF0C;&#x5BB9;&#x5668;&#x7684;&#x5B50;&#x5143;&#x7D20;&#x4F1A;&#x6309;&#x7167;&#x987A;&#x5E8F;&#xFF0C;&#x81EA;&#x52A8;&#x653E;&#x7F6E;&#x5728;&#x6BCF;&#x4E00;&#x4E2A;&#x7F51;&#x683C;&#x3002;&#x9ED8;&#x8BA4;&#x7684;&#x653E;&#x7F6E;&#x987A;&#x5E8F;&#x662F;&#x201C;&#x5148;&#x884C;&#x540E;&#x5217;&#x201D;&#xFF0C;&#x5373;&#x5148;&#x586B;&#x6EE1;&#x7B2C;&#x4E00;&#x884C;&#xFF0C;&#x518D;&#x5F00;&#x59CB;&#x653E;&#x5165;&#x7B2C;&#x4E8C;&#x884C;&#xFF0C;&#x5373;&#x4E0B;&#x56FE;&#x6570;&#x5B57;&#x7684;&#x987A;&#x5E8F;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032506.png" alt=""></p>
+<p>&#x8FD9;&#x4E2A;&#x987A;&#x5E8F;&#x7531;<code>grid-auto-flow</code>&#x5C5E;&#x6027;&#x51B3;&#x5B9A;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x662F;<code>row</code>&#xFF0C;&#x5373;&#x201C;&#x5148;&#x884C;&#x540E;&#x5217;&#x201D;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x5C06;&#x5B83;&#x8BBE;&#x6210;<code>column</code>&#xFF0C;&#x53D8;&#x6210;&#x201C;&#x5148;&#x5217;&#x540E;&#x884C;&#x201D;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-auto-flow</span>: <span class="hljs-selector-tag">column</span>;
+</code></pre>
+<p><a href="https://jsbin.com/xutokec/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8BBE;&#x7F6E;&#x4E86;<code>column</code>&#x4EE5;&#x540E;&#xFF0C;&#x653E;&#x7F6E;&#x987A;&#x5E8F;&#x5C31;&#x53D8;&#x6210;&#x4E86;&#x4E0B;&#x56FE;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032512.png" alt=""></p>
+<p><code>grid-auto-flow</code>&#x5C5E;&#x6027;&#x9664;&#x4E86;&#x8BBE;&#x7F6E;&#x6210;<code>row</code>&#x548C;<code>column</code>&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x8BBE;&#x6210;<code>row dense</code>&#x548C;<code>column dense</code>&#x3002;&#x8FD9;&#x4E24;&#x4E2A;&#x503C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#xFF0C;&#x67D0;&#x4E9B;&#x9879;&#x76EE;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x4EE5;&#x540E;&#xFF0C;&#x5269;&#x4E0B;&#x7684;&#x9879;&#x76EE;&#x600E;&#x4E48;&#x81EA;&#x52A8;&#x653E;&#x7F6E;&#x3002;</p>
+<p><a href="https://jsbin.com/wapejok/edit?css,output" target="_blank">&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;</a>&#x8BA9;1&#x53F7;&#x9879;&#x76EE;&#x548C;2&#x53F7;&#x9879;&#x76EE;&#x5404;&#x5360;&#x636E;&#x4E24;&#x4E2A;&#x5355;&#x5143;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x9ED8;&#x8BA4;&#x7684;<code>grid-auto-flow: row</code>&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4F1A;&#x4EA7;&#x751F;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#x7684;&#x5E03;&#x5C40;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032513.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x4E2D;&#xFF0C;1&#x53F7;&#x9879;&#x76EE;&#x540E;&#x9762;&#x7684;&#x4F4D;&#x7F6E;&#x662F;&#x7A7A;&#x7684;&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;3&#x53F7;&#x9879;&#x76EE;&#x9ED8;&#x8BA4;&#x8DDF;&#x7740;2&#x53F7;&#x9879;&#x76EE;&#xFF0C;&#x6240;&#x4EE5;&#x4F1A;&#x6392;&#x5728;2&#x53F7;&#x9879;&#x76EE;&#x540E;&#x9762;&#x3002;</p>
+<p>&#x73B0;&#x5728;&#x4FEE;&#x6539;&#x8BBE;&#x7F6E;&#xFF0C;&#x8BBE;&#x4E3A;<code>row dense</code>&#xFF0C;&#x8868;&#x793A;&#x201C;&#x5148;&#x884C;&#x540E;&#x5217;&#x201D;&#xFF0C;&#x5E76;&#x4E14;&#x5C3D;&#x53EF;&#x80FD;&#x7D27;&#x5BC6;&#x586B;&#x6EE1;&#xFF0C;&#x5C3D;&#x91CF;&#x4E0D;&#x51FA;&#x73B0;&#x7A7A;&#x683C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-auto-flow</span>: <span class="hljs-selector-tag">row</span> <span class="hljs-selector-tag">dense</span>;
+</code></pre>
+<p><a href="https://jsbin.com/helewuy/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x7684;&#x6548;&#x679C;&#x5982;&#x4E0B;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032514.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x4F1A;&#x5148;&#x586B;&#x6EE1;&#x7B2C;&#x4E00;&#x884C;&#xFF0C;&#x518D;&#x586B;&#x6EE1;&#x7B2C;&#x4E8C;&#x884C;&#xFF0C;&#x6240;&#x4EE5;3&#x53F7;&#x9879;&#x76EE;&#x5C31;&#x4F1A;&#x7D27;&#x8DDF;&#x5728;1&#x53F7;&#x9879;&#x76EE;&#x7684;&#x540E;&#x9762;&#x3002;8&#x53F7;&#x9879;&#x76EE;&#x548C;9&#x53F7;&#x9879;&#x76EE;&#x5C31;&#x4F1A;&#x6392;&#x5230;&#x7B2C;&#x56DB;&#x884C;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x5C06;&#x8BBE;&#x7F6E;&#x6539;&#x4E3A;<code>column dense</code>&#xFF0C;&#x8868;&#x793A;&#x201C;&#x5148;&#x5217;&#x540E;&#x884C;&#x201D;&#xFF0C;&#x5E76;&#x4E14;&#x5C3D;&#x91CF;&#x586B;&#x6EE1;&#x7A7A;&#x683C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">grid-auto-flow</span>: <span class="hljs-selector-tag">column</span> <span class="hljs-selector-tag">dense</span>;
+</code></pre>
+<p><a href="https://jsbin.com/pupoduc/1/edit?html,css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x7684;&#x6548;&#x679C;&#x5982;&#x4E0B;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032515.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x4F1A;&#x5148;&#x586B;&#x6EE1;&#x7B2C;&#x4E00;&#x5217;&#xFF0C;&#x518D;&#x586B;&#x6EE1;&#x7B2C;2&#x5217;&#xFF0C;&#x6240;&#x4EE5;3&#x53F7;&#x9879;&#x76EE;&#x5728;&#x7B2C;&#x4E00;&#x5217;&#xFF0C;4&#x53F7;&#x9879;&#x76EE;&#x5728;&#x7B2C;&#x4E8C;&#x5217;&#x3002;8&#x53F7;&#x9879;&#x76EE;&#x548C;9&#x53F7;&#x9879;&#x76EE;&#x88AB;&#x6324;&#x5230;&#x4E86;&#x7B2C;&#x56DB;&#x5217;&#x3002;</p>
+<h3 id="36-justify-items-&#x5C5E;&#x6027;&#xFF0C;align-items-&#x5C5E;&#x6027;&#xFF0C;place-items-&#x5C5E;&#x6027;"><a name="36-justify-items-&#x5C5E;&#x6027;&#xFF0C;align-items-&#x5C5E;&#x6027;&#xFF0C;place-items-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#36-justify-items-&#x5C5E;&#x6027;&#xFF0C;align-items-&#x5C5E;&#x6027;&#xFF0C;place-items-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.6. 3.6 justify-items &#x5C5E;&#x6027;&#xFF0C;align-items &#x5C5E;&#x6027;&#xFF0C;place-items &#x5C5E;&#x6027;</h3>
+<p><code>justify-items</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x7684;&#x6C34;&#x5E73;&#x4F4D;&#x7F6E;&#xFF08;&#x5DE6;&#x4E2D;&#x53F3;&#xFF09;&#xFF0C;<code>align-items</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x7684;&#x5782;&#x76F4;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0A;&#x4E2D;&#x4E0B;&#xFF09;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">justify-items</span>: start | end | center | stretch;
+  <span class="hljs-attribute">align-items</span>: start | end | center | stretch;
+}
+</code></pre>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x5199;&#x6CD5;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x53D6;&#x4E0B;&#x9762;&#x8FD9;&#x4E9B;&#x503C;&#x3002;</p>
+<blockquote>
+<ul>
+<li>start&#xFF1A;&#x5BF9;&#x9F50;&#x5355;&#x5143;&#x683C;&#x7684;&#x8D77;&#x59CB;&#x8FB9;&#x7F18;&#x3002;</li>
+<li>end&#xFF1A;&#x5BF9;&#x9F50;&#x5355;&#x5143;&#x683C;&#x7684;&#x7ED3;&#x675F;&#x8FB9;&#x7F18;&#x3002;</li>
+<li>center&#xFF1A;&#x5355;&#x5143;&#x683C;&#x5185;&#x90E8;&#x5C45;&#x4E2D;&#x3002;</li>
+<li>stretch&#xFF1A;&#x62C9;&#x4F38;&#xFF0C;&#x5360;&#x6EE1;&#x5355;&#x5143;&#x683C;&#x7684;&#x6574;&#x4E2A;&#x5BBD;&#x5EA6;&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#x3002;</li>
+</ul>
+</blockquote>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">justify-items</span>: start;
+}
+</code></pre>
+<p><a href="https://jsbin.com/gijeqej/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#xFF0C;&#x5355;&#x5143;&#x683C;&#x7684;&#x5185;&#x5BB9;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x6548;&#x679C;&#x5982;&#x4E0B;&#x56FE;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032516.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">align-items</span>: start;
+}
+</code></pre>
+<p><a href="https://jsbin.com/tecawur/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#xFF0C;&#x5355;&#x5143;&#x683C;&#x7684;&#x5185;&#x5BB9;&#x5934;&#x90E8;&#x5BF9;&#x9F50;&#xFF0C;&#x6548;&#x679C;&#x5982;&#x4E0B;&#x56FE;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032517.png" alt=""></p>
+<p><code>place-items</code>&#x5C5E;&#x6027;&#x662F;<code>align-items</code>&#x5C5E;&#x6027;&#x548C;<code>justify-items</code>&#x5C5E;&#x6027;&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-items</span>: &lt;<span class="hljs-selector-tag">align-items</span>&gt; &lt;<span class="hljs-selector-tag">justify-items</span>&gt;;
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-items</span>: <span class="hljs-selector-tag">start</span> <span class="hljs-selector-tag">end</span>;
+</code></pre>
+<p>&#x5982;&#x679C;&#x7701;&#x7565;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#xFF0C;&#x5219;&#x6D4F;&#x89C8;&#x5668;&#x8BA4;&#x4E3A;&#x4E0E;&#x7B2C;&#x4E00;&#x4E2A;&#x503C;&#x76F8;&#x7B49;&#x3002;</p>
+<h3 id="37-justify-content-&#x5C5E;&#x6027;&#xFF0C;align-content-&#x5C5E;&#x6027;&#xFF0C;place-content-&#x5C5E;&#x6027;"><a name="37-justify-content-&#x5C5E;&#x6027;&#xFF0C;align-content-&#x5C5E;&#x6027;&#xFF0C;place-content-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#37-justify-content-&#x5C5E;&#x6027;&#xFF0C;align-content-&#x5C5E;&#x6027;&#xFF0C;place-content-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.7. 3.7 justify-content &#x5C5E;&#x6027;&#xFF0C;align-content &#x5C5E;&#x6027;&#xFF0C;place-content &#x5C5E;&#x6027;</h3>
+<p><code>justify-content</code>&#x5C5E;&#x6027;&#x662F;&#x6574;&#x4E2A;&#x5185;&#x5BB9;&#x533A;&#x57DF;&#x5728;&#x5BB9;&#x5668;&#x91CC;&#x9762;&#x7684;&#x6C34;&#x5E73;&#x4F4D;&#x7F6E;&#xFF08;&#x5DE6;&#x4E2D;&#x53F3;&#xFF09;&#xFF0C;<code>align-content</code>&#x5C5E;&#x6027;&#x662F;&#x6574;&#x4E2A;&#x5185;&#x5BB9;&#x533A;&#x57DF;&#x7684;&#x5782;&#x76F4;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0A;&#x4E2D;&#x4E0B;&#xFF09;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">justify-content</span>: start | end | center | stretch | space-around | space-between | space-evenly;
+  <span class="hljs-attribute">align-content</span>: start | end | center | stretch | space-around | space-between | space-evenly;  
+}
+</code></pre>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x5199;&#x6CD5;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x53D6;&#x4E0B;&#x9762;&#x8FD9;&#x4E9B;&#x503C;&#x3002;&#xFF08;&#x4E0B;&#x9762;&#x7684;&#x56FE;&#x90FD;&#x4EE5;<code>justify-content</code>&#x5C5E;&#x6027;&#x4E3A;&#x4F8B;&#xFF0C;<code>align-content</code>&#x5C5E;&#x6027;&#x7684;&#x56FE;&#x5B8C;&#x5168;&#x4E00;&#x6837;&#xFF0C;&#x53EA;&#x662F;&#x5C06;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x6539;&#x6210;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x3002;&#xFF09;</p>
+<blockquote>
+<ul>
+<li>start - &#x5BF9;&#x9F50;&#x5BB9;&#x5668;&#x7684;&#x8D77;&#x59CB;&#x8FB9;&#x6846;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032519.png" alt=""></p>
+<blockquote>
+<ul>
+<li>end - &#x5BF9;&#x9F50;&#x5BB9;&#x5668;&#x7684;&#x7ED3;&#x675F;&#x8FB9;&#x6846;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032518.png" alt=""></p>
+<blockquote>
+<ul>
+<li>center - &#x5BB9;&#x5668;&#x5185;&#x90E8;&#x5C45;&#x4E2D;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032520.png" alt=""></p>
+<blockquote>
+<ul>
+<li>stretch - &#x9879;&#x76EE;&#x5927;&#x5C0F;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x65F6;&#xFF0C;&#x62C9;&#x4F38;&#x5360;&#x636E;&#x6574;&#x4E2A;&#x7F51;&#x683C;&#x5BB9;&#x5668;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032521.png" alt=""></p>
+<blockquote>
+<ul>
+<li>space-around - &#x6BCF;&#x4E2A;&#x9879;&#x76EE;&#x4E24;&#x4FA7;&#x7684;&#x95F4;&#x9694;&#x76F8;&#x7B49;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x9879;&#x76EE;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x6BD4;&#x9879;&#x76EE;&#x4E0E;&#x5BB9;&#x5668;&#x8FB9;&#x6846;&#x7684;&#x95F4;&#x9694;&#x5927;&#x4E00;&#x500D;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032522.png" alt=""></p>
+<blockquote>
+<ul>
+<li>space-between - &#x9879;&#x76EE;&#x4E0E;&#x9879;&#x76EE;&#x7684;&#x95F4;&#x9694;&#x76F8;&#x7B49;&#xFF0C;&#x9879;&#x76EE;&#x4E0E;&#x5BB9;&#x5668;&#x8FB9;&#x6846;&#x4E4B;&#x95F4;&#x6CA1;&#x6709;&#x95F4;&#x9694;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032523.png" alt=""></p>
+<blockquote>
+<ul>
+<li>space-evenly - &#x9879;&#x76EE;&#x4E0E;&#x9879;&#x76EE;&#x7684;&#x95F4;&#x9694;&#x76F8;&#x7B49;&#xFF0C;&#x9879;&#x76EE;&#x4E0E;&#x5BB9;&#x5668;&#x8FB9;&#x6846;&#x4E4B;&#x95F4;&#x4E5F;&#x662F;&#x540C;&#x6837;&#x957F;&#x5EA6;&#x7684;&#x95F4;&#x9694;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032524.png" alt=""></p>
+<p><code>place-content</code>&#x5C5E;&#x6027;&#x662F;<code>align-content</code>&#x5C5E;&#x6027;&#x548C;<code>justify-content</code>&#x5C5E;&#x6027;&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-content</span>: &lt;<span class="hljs-selector-tag">align-content</span>&gt; &lt;<span class="hljs-selector-tag">justify-content</span>&gt;
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-content</span>: <span class="hljs-selector-tag">space-around</span> <span class="hljs-selector-tag">space-evenly</span>;
+</code></pre>
+<p>&#x5982;&#x679C;&#x7701;&#x7565;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x5C31;&#x4F1A;&#x5047;&#x5B9A;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#x7B49;&#x4E8E;&#x7B2C;&#x4E00;&#x4E2A;&#x503C;&#x3002;</p>
+<h3 id="38-grid-auto-columns-&#x5C5E;&#x6027;&#xFF0C;grid-auto-rows-&#x5C5E;&#x6027;"><a name="38-grid-auto-columns-&#x5C5E;&#x6027;&#xFF0C;grid-auto-rows-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#38-grid-auto-columns-&#x5C5E;&#x6027;&#xFF0C;grid-auto-rows-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.8. 3.8 grid-auto-columns &#x5C5E;&#x6027;&#xFF0C;grid-auto-rows &#x5C5E;&#x6027;</h3>
+<p>&#x6709;&#x65F6;&#x5019;&#xFF0C;&#x4E00;&#x4E9B;&#x9879;&#x76EE;&#x7684;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#xFF0C;&#x5728;&#x73B0;&#x6709;&#x7F51;&#x683C;&#x7684;&#x5916;&#x90E8;&#x3002;&#x6BD4;&#x5982;&#x7F51;&#x683C;&#x53EA;&#x6709;3&#x5217;&#xFF0C;&#x4F46;&#x662F;&#x67D0;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x6307;&#x5B9A;&#x5728;&#x7B2C;5&#x884C;&#x3002;&#x8FD9;&#x65F6;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x591A;&#x4F59;&#x7684;&#x7F51;&#x683C;&#xFF0C;&#x4EE5;&#x4FBF;&#x653E;&#x7F6E;&#x9879;&#x76EE;&#x3002;</p>
+<p><code>grid-auto-columns</code>&#x5C5E;&#x6027;&#x548C;<code>grid-auto-rows</code>&#x5C5E;&#x6027;&#x7528;&#x6765;&#x8BBE;&#x7F6E;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x7684;&#x591A;&#x4F59;&#x7F51;&#x683C;&#x7684;&#x5217;&#x5BBD;&#x548C;&#x884C;&#x9AD8;&#x3002;&#x5B83;&#x4EEC;&#x7684;&#x5199;&#x6CD5;&#x4E0E;<code>grid-template-columns</code>&#x548C;<code>grid-template-rows</code>&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x5B8C;&#x5168;&#x6839;&#x636E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x51B3;&#x5B9A;&#x65B0;&#x589E;&#x7F51;&#x683C;&#x7684;&#x5217;&#x5BBD;&#x548C;&#x884C;&#x9AD8;&#x3002;</p>
+<p><a href="https://jsbin.com/sayuric/edit?css,output" target="_blank">&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;</a>&#x91CC;&#x9762;&#xFF0C;&#x5212;&#x5206;&#x597D;&#x7684;&#x7F51;&#x683C;&#x662F;3&#x884C; x 3&#x5217;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;8&#x53F7;&#x9879;&#x76EE;&#x6307;&#x5B9A;&#x5728;&#x7B2C;4&#x884C;&#xFF0C;9&#x53F7;&#x9879;&#x76EE;&#x6307;&#x5B9A;&#x5728;&#x7B2C;5&#x884C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: grid;
+  <span class="hljs-attribute">grid-template-columns</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">grid-template-rows</span>: <span class="hljs-number">100px</span> <span class="hljs-number">100px</span> <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">grid-auto-rows</span>: <span class="hljs-number">50px</span>; 
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x6307;&#x5B9A;&#x65B0;&#x589E;&#x7684;&#x884C;&#x9AD8;&#x7EDF;&#x4E00;&#x4E3A;50px&#xFF08;&#x539F;&#x59CB;&#x7684;&#x884C;&#x9AD8;&#x4E3A;100px&#xFF09;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032525.png" alt=""></p>
+<h3 id="39-grid-template-&#x5C5E;&#x6027;&#xFF0C;grid-&#x5C5E;&#x6027;"><a name="39-grid-template-&#x5C5E;&#x6027;&#xFF0C;grid-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#39-grid-template-&#x5C5E;&#x6027;&#xFF0C;grid-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.3.9. 3.9 grid-template &#x5C5E;&#x6027;&#xFF0C;grid &#x5C5E;&#x6027;</h3>
+<p><code>grid-template</code>&#x5C5E;&#x6027;&#x662F;<code>grid-template-columns</code>&#x3001;<code>grid-template-rows</code>&#x548C;<code>grid-template-areas</code>&#x8FD9;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<p><code>grid</code>&#x5C5E;&#x6027;&#x662F;<code>grid-template-rows</code>&#x3001;<code>grid-template-columns</code>&#x3001;<code>grid-template-areas</code>&#x3001;  <code>grid-auto-rows</code>&#x3001;<code>grid-auto-columns</code>&#x3001;<code>grid-auto-flow</code>&#x8FD9;&#x516D;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<p>&#x4ECE;&#x6613;&#x8BFB;&#x6613;&#x5199;&#x7684;&#x89D2;&#x5EA6;&#x8003;&#x8651;&#xFF0C;&#x8FD8;&#x662F;&#x5EFA;&#x8BAE;&#x4E0D;&#x8981;&#x5408;&#x5E76;&#x5C5E;&#x6027;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x4E86;&#x3002;</p>
+<h2 id="&#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;"><a name="&#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.4. &#x56DB;&#x3001;&#x9879;&#x76EE;&#x5C5E;&#x6027;</h2>
+<p>&#x4E0B;&#x9762;&#x8FD9;&#x4E9B;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x5728;&#x9879;&#x76EE;&#x4E0A;&#x9762;&#x3002;</p>
+<h3 id="41-grid-column-start-&#x5C5E;&#x6027;&#xFF0C;grid-column-end-&#x5C5E;&#x6027;&#xFF0C;grid-row-start-&#x5C5E;&#x6027;&#xFF0C;grid-row-end-&#x5C5E;&#x6027;"><a name="41-grid-column-start-&#x5C5E;&#x6027;&#xFF0C;grid-column-end-&#x5C5E;&#x6027;&#xFF0C;grid-row-start-&#x5C5E;&#x6027;&#xFF0C;grid-row-end-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#41-grid-column-start-&#x5C5E;&#x6027;&#xFF0C;grid-column-end-&#x5C5E;&#x6027;&#xFF0C;grid-row-start-&#x5C5E;&#x6027;&#xFF0C;grid-row-end-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.4.1. 4.1 grid-column-start &#x5C5E;&#x6027;&#xFF0C;grid-column-end &#x5C5E;&#x6027;&#xFF0C;grid-row-start &#x5C5E;&#x6027;&#xFF0C;grid-row-end &#x5C5E;&#x6027;</h3>
+<p>&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;&#x662F;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x7684;&#xFF0C;&#x5177;&#x4F53;&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x7684;&#x56DB;&#x4E2A;&#x8FB9;&#x6846;&#xFF0C;&#x5206;&#x522B;&#x5B9A;&#x4F4D;&#x5728;&#x54EA;&#x6839;&#x7F51;&#x683C;&#x7EBF;&#x3002;</p>
+<blockquote>
+<ul>
+<li><code>grid-column-start</code>&#x5C5E;&#x6027;&#xFF1A;&#x5DE6;&#x8FB9;&#x6846;&#x6240;&#x5728;&#x7684;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;</li>
+<li><code>grid-column-end</code>&#x5C5E;&#x6027;&#xFF1A;&#x53F3;&#x8FB9;&#x6846;&#x6240;&#x5728;&#x7684;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;</li>
+<li><code>grid-row-start</code>&#x5C5E;&#x6027;&#xFF1A;&#x4E0A;&#x8FB9;&#x6846;&#x6240;&#x5728;&#x7684;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;</li>
+<li><code>grid-row-end</code>&#x5C5E;&#x6027;&#xFF1A;&#x4E0B;&#x8FB9;&#x6846;&#x6240;&#x5728;&#x7684;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;</li>
+</ul>
+</blockquote>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-start</span>: <span class="hljs-number">2</span>;
+  <span class="hljs-attribute">grid-column-end</span>: <span class="hljs-number">4</span>;
+}
+</code></pre>
+<p><a href="https://jsbin.com/yukobuf/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x6307;&#x5B9A;&#xFF0C;1&#x53F7;&#x9879;&#x76EE;&#x7684;&#x5DE6;&#x8FB9;&#x6846;&#x662F;&#x7B2C;&#x4E8C;&#x6839;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;&#x53F3;&#x8FB9;&#x6846;&#x662F;&#x7B2C;&#x56DB;&#x6839;&#x5782;&#x76F4;&#x7F51;&#x683C;&#x7EBF;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032526.png" alt=""></p>
+<p>&#x4E0A;&#x56FE;&#x4E2D;&#xFF0C;&#x53EA;&#x6307;&#x5B9A;&#x4E86;1&#x53F7;&#x9879;&#x76EE;&#x7684;&#x5DE6;&#x53F3;&#x8FB9;&#x6846;&#xFF0C;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x4E0A;&#x4E0B;&#x8FB9;&#x6846;&#xFF0C;&#x6240;&#x4EE5;&#x4F1A;&#x91C7;&#x7528;&#x9ED8;&#x8BA4;&#x4F4D;&#x7F6E;&#xFF0C;&#x5373;&#x4E0A;&#x8FB9;&#x6846;&#x662F;&#x7B2C;&#x4E00;&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;&#x4E0B;&#x8FB9;&#x6846;&#x662F;&#x7B2C;&#x4E8C;&#x6839;&#x6C34;&#x5E73;&#x7F51;&#x683C;&#x7EBF;&#x3002;</p>
+<p>&#x9664;&#x4E86;1&#x53F7;&#x9879;&#x76EE;&#x4EE5;&#x5916;&#xFF0C;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x90FD;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#xFF0C;&#x7531;&#x6D4F;&#x89C8;&#x5668;&#x81EA;&#x52A8;&#x5E03;&#x5C40;&#xFF0C;&#x8FD9;&#x65F6;&#x5B83;&#x4EEC;&#x7684;&#x4F4D;&#x7F6E;&#x7531;&#x5BB9;&#x5668;&#x7684;<code>grid-auto-flow</code>&#x5C5E;&#x6027;&#x51B3;&#x5B9A;&#xFF0C;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x662F;<code>row</code>&#xFF0C;&#x56E0;&#x6B64;&#x4F1A;&#x201C;&#x5148;&#x884C;&#x540E;&#x5217;&#x201D;&#x8FDB;&#x884C;&#x6392;&#x5217;&#x3002;&#x8BFB;&#x8005;&#x53EF;&#x4EE5;&#x628A;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;&#x5206;&#x522B;&#x6539;&#x6210;<code>column</code>&#x3001;<code>row dense</code>&#x548C;<code>column dense</code>&#xFF0C;&#x770B;&#x770B;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x600E;&#x6837;&#x7684;&#x53D8;&#x5316;&#x3002;</p>
+<p><a href="https://jsbin.com/nagobey/edit?html,css,output" target="_blank">&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;</a>&#x662F;&#x6307;&#x5B9A;&#x56DB;&#x4E2A;&#x8FB9;&#x6846;&#x4F4D;&#x7F6E;&#x7684;&#x6548;&#x679C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-start</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">grid-column-end</span>: <span class="hljs-number">3</span>;
+  <span class="hljs-attribute">grid-row-start</span>: <span class="hljs-number">2</span>;
+  <span class="hljs-attribute">grid-row-end</span>: <span class="hljs-number">4</span>;
+}
+</code></pre>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032527.png" alt=""></p>
+<p>&#x8FD9;&#x56DB;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;&#xFF0C;&#x9664;&#x4E86;&#x6307;&#x5B9A;&#x4E3A;&#x7B2C;&#x51E0;&#x4E2A;&#x7F51;&#x683C;&#x7EBF;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x4E3A;&#x7F51;&#x683C;&#x7EBF;&#x7684;&#x540D;&#x5B57;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-start</span>: header-start;
+  <span class="hljs-attribute">grid-column-end</span>: header-end;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x5DE6;&#x8FB9;&#x6846;&#x548C;&#x53F3;&#x8FB9;&#x6846;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x90FD;&#x6307;&#x5B9A;&#x4E3A;&#x7F51;&#x683C;&#x7EBF;&#x7684;&#x540D;&#x5B57;&#x3002;</p>
+<p>&#x8FD9;&#x56DB;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>span</code>&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8868;&#x793A;&#x201C;&#x8DE8;&#x8D8A;&#x201D;&#xFF0C;&#x5373;&#x5DE6;&#x53F3;&#x8FB9;&#x6846;&#xFF08;&#x4E0A;&#x4E0B;&#x8FB9;&#x6846;&#xFF09;&#x4E4B;&#x95F4;&#x8DE8;&#x8D8A;&#x591A;&#x5C11;&#x4E2A;&#x7F51;&#x683C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-start</span>: span <span class="hljs-number">2</span>;
+}
+</code></pre>
+<p><a href="https://jsbin.com/hehumay/edit?html,css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x8868;&#x793A;&#xFF0C;1&#x53F7;&#x9879;&#x76EE;&#x7684;&#x5DE6;&#x8FB9;&#x6846;&#x8DDD;&#x79BB;&#x53F3;&#x8FB9;&#x6846;&#x8DE8;&#x8D8A;2&#x4E2A;&#x7F51;&#x683C;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032528.png" alt=""></p>
+<p>&#x8FD9;&#x4E0E;<a href="https://jsbin.com/mujihib/edit?html,css,output" target="_blank">&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;</a>&#x6548;&#x679C;&#x5B8C;&#x5168;&#x4E00;&#x6837;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-end</span>: span <span class="hljs-number">2</span>;
+}
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x8FD9;&#x56DB;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x679C;&#x4EA7;&#x751F;&#x4E86;&#x9879;&#x76EE;&#x7684;&#x91CD;&#x53E0;&#xFF0C;&#x5219;&#x4F7F;&#x7528;<code>z-index</code>&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x7684;&#x91CD;&#x53E0;&#x987A;&#x5E8F;&#x3002;</p>
+<h3 id="42-grid-column-&#x5C5E;&#x6027;&#xFF0C;grid-row-&#x5C5E;&#x6027;"><a name="42-grid-column-&#x5C5E;&#x6027;&#xFF0C;grid-row-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#42-grid-column-&#x5C5E;&#x6027;&#xFF0C;grid-row-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.4.2. 4.2 grid-column &#x5C5E;&#x6027;&#xFF0C;grid-row &#x5C5E;&#x6027;</h3>
+<p><code>grid-column</code>&#x5C5E;&#x6027;&#x662F;<code>grid-column-start</code>&#x548C;<code>grid-column-end</code>&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#xFF0C;<code>grid-row</code>&#x5C5E;&#x6027;&#x662F;<code>grid-row-start</code>&#x5C5E;&#x6027;&#x548C;<code>grid-row-end</code>&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">grid-column</span>: &lt;start-line&gt; / &lt;end-line&gt;;
+  <span class="hljs-attribute">grid-row</span>: &lt;start-line&gt; / &lt;end-line&gt;;
+}
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column</span>: <span class="hljs-number">1</span> / <span class="hljs-number">3</span>;
+  <span class="hljs-attribute">grid-row</span>: <span class="hljs-number">1</span> / <span class="hljs-number">2</span>;
+}
+<span class="hljs-comment">/* &#x7B49;&#x540C;&#x4E8E; */</span>
+<span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column-start</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">grid-column-end</span>: <span class="hljs-number">3</span>;
+  <span class="hljs-attribute">grid-row-start</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">grid-row-end</span>: <span class="hljs-number">2</span>;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x9879;&#x76EE;<code>item-1</code>&#x5360;&#x636E;&#x7B2C;&#x4E00;&#x884C;&#xFF0C;&#x4ECE;&#x7B2C;&#x4E00;&#x6839;&#x5217;&#x7EBF;&#x5230;&#x7B2C;&#x4E09;&#x6839;&#x5217;&#x7EBF;&#x3002;</p>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x4E4B;&#x4E2D;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>span</code>&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8868;&#x793A;&#x8DE8;&#x8D8A;&#x591A;&#x5C11;&#x4E2A;&#x7F51;&#x683C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#b03532</span>;
+  <span class="hljs-attribute">grid-column</span>: <span class="hljs-number">1</span> / <span class="hljs-number">3</span>;
+  <span class="hljs-attribute">grid-row</span>: <span class="hljs-number">1</span> / <span class="hljs-number">3</span>;
+}
+<span class="hljs-comment">/* &#x7B49;&#x540C;&#x4E8E; */</span>
+<span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#b03532</span>;
+  <span class="hljs-attribute">grid-column</span>: <span class="hljs-number">1</span> / span <span class="hljs-number">2</span>;
+  <span class="hljs-attribute">grid-row</span>: <span class="hljs-number">1</span> / span <span class="hljs-number">2</span>;
+}
+</code></pre>
+<p><a href="https://jsbin.com/volugow/edit?html,css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x4E2D;&#xFF0C;&#x9879;&#x76EE;<code>item-1</code>&#x5360;&#x636E;&#x7684;&#x533A;&#x57DF;&#xFF0C;&#x5305;&#x62EC;&#x7B2C;&#x4E00;&#x884C; + &#x7B2C;&#x4E8C;&#x884C;&#x3001;&#x7B2C;&#x4E00;&#x5217; + &#x7B2C;&#x4E8C;&#x5217;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032529.png" alt=""></p>
+<p>&#x659C;&#x6760;&#x4EE5;&#x53CA;&#x540E;&#x9762;&#x7684;&#x90E8;&#x5206;&#x53EF;&#x4EE5;&#x7701;&#x7565;&#xFF0C;&#x9ED8;&#x8BA4;&#x8DE8;&#x8D8A;&#x4E00;&#x4E2A;&#x7F51;&#x683C;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-column</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">grid-row</span>: <span class="hljs-number">1</span>;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x9879;&#x76EE;<code>item-1</code>&#x5360;&#x636E;&#x5DE6;&#x4E0A;&#x89D2;&#x7B2C;&#x4E00;&#x4E2A;&#x7F51;&#x683C;&#x3002;</p>
+<h3 id="43-grid-area-&#x5C5E;&#x6027;"><a name="43-grid-area-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#43-grid-area-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.4.3. 4.3 grid-area &#x5C5E;&#x6027;</h3>
+<p><code>grid-area</code>&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x653E;&#x5728;&#x54EA;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-area</span>: e;
+}
+</code></pre>
+<p><a href="https://jsbin.com/qokexob/edit?css,output" target="_blank">&#x4E0A;&#x9762;&#x4EE3;&#x7801;</a>&#x4E2D;&#xFF0C;1&#x53F7;&#x9879;&#x76EE;&#x4F4D;&#x4E8E;<code>e</code>&#x533A;&#x57DF;&#xFF0C;&#x6548;&#x679C;&#x5982;&#x4E0B;&#x56FE;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032530.png" alt=""></p>
+<p><code>grid-area</code>&#x5C5E;&#x6027;&#x8FD8;&#x53EF;&#x7528;&#x4F5C;<code>grid-row-start</code>&#x3001;<code>grid-column-start</code>&#x3001;<code>grid-row-end</code>&#x3001;<code>grid-column-end</code>&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#xFF0C;&#x76F4;&#x63A5;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">grid-area</span>: &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-end&gt; / &lt;column-end&gt;;
+}
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;<a href="https://jsbin.com/duyafez/edit?css,output" target="_blank">&#x4F8B;&#x5B50;</a>&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span> {
+  <span class="hljs-attribute">grid-area</span>: <span class="hljs-number">1</span> / <span class="hljs-number">1</span> / <span class="hljs-number">3</span> / <span class="hljs-number">3</span>;
+}
+</code></pre>
+<h3 id="44-justify-self-&#x5C5E;&#x6027;&#xFF0C;align-self-&#x5C5E;&#x6027;&#xFF0C;place-self-&#x5C5E;&#x6027;"><a name="44-justify-self-&#x5C5E;&#x6027;&#xFF0C;align-self-&#x5C5E;&#x6027;&#xFF0C;place-self-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#44-justify-self-&#x5C5E;&#x6027;&#xFF0C;align-self-&#x5C5E;&#x6027;&#xFF0C;place-self-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.4.4. 4.4 justify-self &#x5C5E;&#x6027;&#xFF0C;align-self &#x5C5E;&#x6027;&#xFF0C;place-self &#x5C5E;&#x6027;</h3>
+<p><code>justify-self</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x7684;&#x6C34;&#x5E73;&#x4F4D;&#x7F6E;&#xFF08;&#x5DE6;&#x4E2D;&#x53F3;&#xFF09;&#xFF0C;&#x8DDF;<code>justify-items</code>&#x5C5E;&#x6027;&#x7684;&#x7528;&#x6CD5;&#x5B8C;&#x5168;&#x4E00;&#x81F4;&#xFF0C;&#x4F46;&#x53EA;&#x4F5C;&#x7528;&#x4E8E;&#x5355;&#x4E2A;&#x9879;&#x76EE;&#x3002;</p>
+<p><code>align-self</code>&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5355;&#x5143;&#x683C;&#x5185;&#x5BB9;&#x7684;&#x5782;&#x76F4;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0A;&#x4E2D;&#x4E0B;&#xFF09;&#xFF0C;&#x8DDF;<code>align-items</code>&#x5C5E;&#x6027;&#x7684;&#x7528;&#x6CD5;&#x5B8C;&#x5168;&#x4E00;&#x81F4;&#xFF0C;&#x4E5F;&#x662F;&#x53EA;&#x4F5C;&#x7528;&#x4E8E;&#x5355;&#x4E2A;&#x9879;&#x76EE;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">justify-self</span>: start | end | center | stretch;
+  <span class="hljs-attribute">align-self</span>: start | end | center | stretch;
+}
+</code></pre>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x90FD;&#x53EF;&#x4EE5;&#x53D6;&#x4E0B;&#x9762;&#x56DB;&#x4E2A;&#x503C;&#x3002;</p>
+<blockquote>
+<ul>
+<li>start&#xFF1A;&#x5BF9;&#x9F50;&#x5355;&#x5143;&#x683C;&#x7684;&#x8D77;&#x59CB;&#x8FB9;&#x7F18;&#x3002;</li>
+<li>end&#xFF1A;&#x5BF9;&#x9F50;&#x5355;&#x5143;&#x683C;&#x7684;&#x7ED3;&#x675F;&#x8FB9;&#x7F18;&#x3002;</li>
+<li>center&#xFF1A;&#x5355;&#x5143;&#x683C;&#x5185;&#x90E8;&#x5C45;&#x4E2D;&#x3002;</li>
+<li>stretch&#xFF1A;&#x62C9;&#x4F38;&#xFF0C;&#x5360;&#x6EE1;&#x5355;&#x5143;&#x683C;&#x7684;&#x6574;&#x4E2A;&#x5BBD;&#x5EA6;&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#x3002;</li>
+</ul>
+</blockquote>
+<p>&#x4E0B;&#x9762;&#x662F;<code>justify-self: start</code>&#x7684;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item-1</span>  {
+  <span class="hljs-attribute">justify-self</span>: start;
+}
+</code></pre>
+<p><img src="https://www.wangbase.com/blogimg/asset/201903/bg2019032532.png" alt=""></p>
+<p><code>place-self</code>&#x5C5E;&#x6027;&#x662F;<code>align-self</code>&#x5C5E;&#x6027;&#x548C;<code>justify-self</code>&#x5C5E;&#x6027;&#x7684;&#x5408;&#x5E76;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-self</span>: &lt;<span class="hljs-selector-tag">align-self</span>&gt; &lt;<span class="hljs-selector-tag">justify-self</span>&gt;;
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">place-self</span>: <span class="hljs-selector-tag">center</span> <span class="hljs-selector-tag">center</span>;
+</code></pre>
+<p>&#x5982;&#x679C;&#x7701;&#x7565;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#xFF0C;<code>place-self</code>&#x5C5E;&#x6027;&#x4F1A;&#x8BA4;&#x4E3A;&#x8FD9;&#x4E24;&#x4E2A;&#x503C;&#x76F8;&#x7B49;&#x3002;</p>
+<h2 id="&#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;"><a name="&#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.14.1.5. &#x4E94;&#x3001;&#x53C2;&#x8003;&#x94FE;&#x63A5;</h2>
+<ul>
+<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to Grid</a>, by Chris House</li>
+<li><a href="https://webdesign.tutsplus.com/series/understanding-the-css-grid-layout-module--cms-1079" target="_blank">Understanding the CSS Grid Layout Module</a>, by Ian Yates</li>
+<li><a href="https://webdesign.tutsplus.com/tutorials/how-to-build-an-off-canvas-navigation-with-css-grid--cms-28191" target="_blank">How to Build an Off-Canvas Navigation With CSS Grid</a>, Ian Yates</li>
+<li><a href="https://code.tutsplus.com/tutorials/introduction-to-css-grid-layout-with-examples--cms-25392" target="_blank">Introduction to the CSS Grid Layout With Examples</a>, Dogacan Bilgili</li>
+<li><a href="http://learncssgrid.com/" target="_blank">Learn CSS Grid</a>, Jonathan Suh</li>
+<li><a href="https://blog.theodo.fr/2018/03/stop-using-bootstrap-layout-thanks-to-css-grid/" target="_blank">How I stopped using Bootstrap&#x2019;s layout thanks to CSS Grid</a>, C&#xE9;dric Kui</li>
+</ul>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>var gitalk = new Gitalk({ "clientID": "44979d2ff8cc5b4ed224", "clientSecret": "20d817e3f9bbdae3422b5c318c55e26da4574b78","repo": "codezxw.github.io","owner": "codezxw", "admin": ["codezxw"],"id": window.location.pathname,"distractionFreeMode": false});gitalk.render("gitalk-container");</script> 
+
+<footer class="footer"><div class="footer__container--normal" alt="
+https://www.codezxw.com/css/layout/grid.html
+">
+<img src="data:image/gif;base64,R0lGODdhqgCqAIAAAAAAAP///ywAAAAAqgCqAAAC/4yPqcvtD6OctNqLs968+w+G4kiW5omm6sq27gvH8kzX9u0C+s7zhv4DKHwJYMBI7Cl7waSw+Gw+kbsggkq9RqFL5qSrtB630uH0jAU7nWZtdvwWsw9Gs7oewbfHcnDfXQVHJpimR+j3QKRVRncmxmDoENn4dziHFyZoF5gJqAahSKkpGrcwCYnGOSgV+shH6uWa+db62uWK2xhK63VqmlrqGbgo2re7Nes4Snz7SryJqZxMUai8Z5jGGK09eGdt2YucytotHU4N/M1czl2a7ayLGP0J/94JS54rmS47DNtc7ZK5SWvkrYKyLp+tc1/41fNnbEnEaQsZbSJHcV/CQ/8T1SU6mMudKo0IPyY7ho0hoD0hQcID5TJlv2AlnzUAGGtZPJq1ttX8hc5bJV5DzRU9WjEpUaVGmWKU2FCo06lLqza1ihQr1YF3TMyDyvKl2GrCLv70WXasSxZf79mUWfKeW539bCqES4IgVJppn9qL6a+gVJ4QH+7zhQoVRV9yDfKNtxIczpZ4xUaWIPAaYMziWiqkzA6c4pwk0eYZqVZfsY8b1x0z65r0zsKJDV8QfLXzwoA5eb3z25UL7dTCl1rAjbQo79e7x832lrKW5+JNjxcWadFy88G9VcFFDlmt6btrb17/9lv78r3d00f8PCq67rSIgf5qdpl6ZJThfLP/nzMdgPE5hIFe+IUHjTjp4eTfSagF+OCA8FlnoGzATXbfeY19BdtZ6QioGoUHHSgMd6PJx19+2b31YYQhVoBhXfr9w5BPuDG3n4blcTbeaRnZ1td2qNnoHVjiOadiBjiOcCN6RjKmIJLNhTXXX7HJiEKTM3VHUju69RTldxFauZp1CQqE4phFrihcjtwR5iCYdp125pA6ClgQm/k16SBoWnpY4JP/ERhemrVZRZZ5/sHU5wYHMkgoNwkemluio71nUn872idpUqolahqoLWqGaYlOykkXjFEmp55Dobo6alxc1bmlmPWVdt6VxM0JnZQ/VpKVkx2Jig6bRBIW1oVr/84G4UbGMRWnR7jCFy14PQJLZ5mpLkmfpsmyJmS3kGJn362ryddhhaJWxhmL5P616JQSMrutkZ9+WeSzZp6rJqZozjoveWmyy6+X+t6mUrmxoutpuAG3WupP9+aowa+yPgUatusKq7Ceu3r4WLtHwuvrZgqb6yWjsbI4XaB+OpentnNGrLLHbspG5LcwDTscqc85tmq9dcbMIY0mIsyzuSL1ml3MvAaHZ2AtxohwlYOSiODPndqaa4ZYej0jylpTt16FtM7LNcGdvggmiFHZGZvF/85d8mLeassfopueWJ2QbtPdYN013p0xvfHui2qSGNdbbcJYP9bo103vTeO30v+JxrimVD8uLUc69cgtuGVbaHi+XB45oWSEP3QsIi9SquzlAk+Nr1lWvznf57Rf62PtirouNNlhlqPuiI5Dt3PVvvO9YWimBunxXOSZKr3Eb1Psecv89spb0kETPVzOMwb1PaEEt4U85uvdnDKnDaeePJyhrV+w+4i7SG+SZsucrfw+0yM5/onMbalLXJsEaJ7JaUxqeSOemgY2uLX9LHIHFFvEntVA6HmuaNSD28NiJyXs7ctgwyOW6qQyrdK5y154W5l2ujSgBpqQeyz02fS2V0PiPIpyzDPeguwULWxNLl5RAw/b+hao6jkNbVdDou6I+EDTzQwfL0xg9iooNX//0bBrEqyMpaZirIQNkHRLhOIWnfcwL5qvb23D32G4ojcKFg19Mvoh5zRzONbxsFCw8p4C+dgtZzGQhVy7YNCSuDzh4XGQzzugzloVNWqFj3Q1o+LZ4nZIzCkOYhl6V3t82DNwAWdSMXQiyzhZm03KjZBoLNYEHUgyIQIKlfZL1Q0b+bSK4S9kG4Tl7tD4qh/CL2uBk12mmvU7+Y2OSrkrY6QcCa0cvhGAehzlFR/JnB1KsiN7AmYopwm8OQINSpcyWhavGLhuMtOC8jLjL+lhx/lVyoWt+ViKkMbE9p3xX/rLDQn1EkAO2rJ/8pxdo1DlTPdgsYOXvGYHkOUweC5L/1f3NGYRWdk8dlbyoFJEneoEmZm3ha6Yg5piOTlqwps1hpvvy9RI4Qg0k4JNkksD5RTFd9FgejB5XexcOWl6KpvyD6dR1OnBUplGn1oxevii48hKCDDY6RGg5nyaMZF6udYFcnzqC+HFpmo8TFr1m+7DHfhkqCMYgrCNoIOqxUSmrMUZ8aPQtNwWSak9plWRR94k6UuZitRcNsyAf8sdItcJ05XKiqrYLGg1QeYR3vGVpMyk6Ds7uiXlkBGj89RoLxd3Si2udY3Y614n0xpNsQlUrpcN4xsFe7tJfq2wHFhtV0Ho2t/BFmebne0u92i74NyylCjMHzRpuMA2djB0r/894fAy61y2CnW0yUUtbhHYIVmKNWviGpw2q5hVwZn2dbr9KqXuSUoMUZOX4R2i6STrUuCFcX/ZBOLx1htB4akRvkPjLcOCq1W/BXWHIWUoZGWKVes6lEzkZWlln+hdB0qwwWVVsNV6Osb2Vm5sCgXfIycbWbKejah+tJ4GJepbDYK4cOSL5FbumExfFhhIDl0xFUmmXg8qFsG6gy44Owxc4+otru2EqWCbW12VLZHCD47tPqHmTepaL50qBORel+qw5T75t5ikJjIzGlTtiu6T6uxlSoW80xtPUon+xSxB0dtjM/eRqzPWbA/5ll5Kgs20DCbuc/k4Xk12bGx/1Ar/+XgmWkAPUpyBxlo9Cey7o8Z3u4bmLpYvTGMx3wuCoRVpU3UcYqX9+dGODaylv8vk+g3XbmeVcF0fe+Yf4diXrqzVgI1cyuwGb2v37Zef8dqQWk8ZZoCxG4uNOzvy8inIqg3rYpWa42MX8G71WbbLwHrEL0p3rEj+rJyTrWbP1pS9bt52C6Hk1I2B286OkvE5VXo6IBv4izSzMjkHCtdXcpuu7F4hq7sWXknXu9v0zrXBddXkUKqtqlXepqpax7BWLzLBNvvYItM96is/2N/vLWl5z0ftZYkPumocoT2bCKnmglziSfUtRFPNcTxD2Khk/Xf7ROjcrVYPhmxO6LsF/y3zWGbO1mB2sJLcKk+9ljyiAJ/uU3GZ6aMbuMsGSfi6LXlcWhM66iD2pBZn3fPTjVaxxUWuxk/r9SKDfbM7jm44f6llAn5g3FUPXkWF28Ib/mnfWbp1jgupaBhTmtiY3mTX2fPlTyMavO4euLxexqoW111MdbSv3F+WR4Q/HYyq4rmeg0R5YuYXQhpOl7ub7fmrotmGM2dj0mU706eqfvB5JvjbhcnhupPe7/INtre3+lN+Hxys9GtrT/V6v5xqjtiNtGip0c7b/hrw2rIeJ/Nzf+96Sr+Vbv+w79+qb1gLCvw7b6n2TfxVdp65vyQfvxiRbd5Bm/p/e7y33ElcZVzOwZm+ht0wQilnf25kG3S3eKD3czhHVUtmfjH2XQFWZpAzeXiHWCMGarpUdhyjXGrWQ36lcJnEWpWGAyEogiNIgiVogieIgimogivIgi3ogi8IgzEogzNIgzBYAAA7" width="170" height="170">
+<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">&#x4F7F;&#x7528;&#x624B;&#x673A;&#x626B;&#x7801;&#x67E5;&#x770B;&#x5F53;&#x524D;&#x9875;&#x9762;<sup class="super">&#xAE;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">&#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51;(www.codezxw.com)&#x63D0;&#x4F9B;&#x7F16;&#x7A0B;&#x7684;&#x57FA;&#x7840;&#x6280;&#x672F;&#x6559;&#x7A0B;, &#x4ECB;&#x7ECD;HTML&#x3001;CSS&#x3001;Javascript&#x3001;Python&#xFF0C;Java&#xFF0C;Ruby&#xFF0C;C&#xFF0C;PHP , MySQL&#x7B49;&#x5404;&#x79CD;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;...</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#xA9; &#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51; all right reserved</p><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #666 !important;"><span style="color: #666 !important;">&#x66F4;&#x65B0;&#x65E5;&#x671F;</span>
+2019-11-27 15:58:31
+</p></div></div></div><div class="box__issues">
+
+</div></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="float.html" class="navigation navigation-prev " aria-label="Previous page: CSS float属性">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="table.html" class="navigation navigation-next " aria-label="Next page: CSS table布局">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CSS grid布局","level":"2.2.14","depth":2,"next":{"title":"CSS table布局","level":"2.2.15","depth":2,"path":"css/layout/table.md","ref":"css/layout/table.md","articles":[]},"previous":{"title":"CSS float属性","level":"2.2.13","depth":2,"path":"css/layout/float.md","ref":"css/layout/float.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","code","-sharing","sharing-plus","anchors","include-codeblock","splitter","page-copyright","expandable-chapters-small","anchor-navigation-ex","custom-favicon","klipse","pageview-count","3-ba","-livereload","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"styles":{"website":"styles/website.css"},"splitter":{},"search":{},"page-copyright":{"wisdom":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识...","noPowered":false,"copyright":"Copyright &#169; 程序员自学网","styles (normal, symmetrical)":"normal","style":"normal","isShowQRCode":true,"timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"使用手机扫码查看当前页面","baseUri":"https://www.codezxw.com/","copyrightColor":"#666","description":"更新日期"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"isRewritePageTitle":false,"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":"https://www.codezxw.com/images/favicon.ico","pageview-count":{},"custom-favicon":{},"3-ba":{"configuration":"auto","token":"737beab3da21ecf2001439672b951cff"},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":false,"facebook":true,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"insert-logo":{"style":"background: none; max-height: 120px; min-height: 100px","url":"/images/logo.png"}},"theme":"default","author":"albert","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"程序员自学网","language":"zh-hans","links":{"gitbook":true},"gitbook":"*","description":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识..."},"file":{"path":"css/layout/grid.md","mtime":"2019-11-27T07:58:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-10T14:13:34.937Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

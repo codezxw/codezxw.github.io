@@ -1,0 +1,1820 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CSS flexbox布局 · 程序员自学网</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="albert">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-copyright/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="column.html" />
+    
+    
+    <link rel="prev" href="table.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">首页</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">学习教程</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../HTML/HTML.html">
+            
+                <a href="../../HTML/HTML.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    HTML教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../HTML/intro.html">
+            
+                <a href="../../HTML/intro.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    HTML 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../HTML/url.html">
+            
+                <a href="../../HTML/url.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    URL 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../HTML/attribute.html">
+            
+                <a href="../../HTML/attribute.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    元素的属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../HTML/encode.html">
+            
+                <a href="../../HTML/encode.html">
+            
+                    
+                        <b>2.1.4.</b>
+                    
+                    字符编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../HTML/semantic.html">
+            
+                <a href="../../HTML/semantic.html">
+            
+                    
+                        <b>2.1.5.</b>
+                    
+                    语义结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../HTML/text.html">
+            
+                <a href="../../HTML/text.html">
+            
+                    
+                        <b>2.1.6.</b>
+                    
+                    文本标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../../HTML/list.html">
+            
+                <a href="../../HTML/list.html">
+            
+                    
+                        <b>2.1.7.</b>
+                    
+                    列表标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../../HTML/image.html">
+            
+                <a href="../../HTML/image.html">
+            
+                    
+                        <b>2.1.8.</b>
+                    
+                    图像标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="../../HTML/link.html">
+            
+                <a href="../../HTML/link.html">
+            
+                    
+                        <b>2.1.9.</b>
+                    
+                    链接标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" data-path="../../HTML/multimedia.html">
+            
+                <a href="../../HTML/multimedia.html">
+            
+                    
+                        <b>2.1.10.</b>
+                    
+                    多媒体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" data-path="../../HTML/iframe.html">
+            
+                <a href="../../HTML/iframe.html">
+            
+                    
+                        <b>2.1.11.</b>
+                    
+                     iframe标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" data-path="../../HTML/table.html">
+            
+                <a href="../../HTML/table.html">
+            
+                    
+                        <b>2.1.12.</b>
+                    
+                    表格标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" data-path="../../HTML/form.html">
+            
+                <a href="../../HTML/form.html">
+            
+                    
+                        <b>2.1.13.</b>
+                    
+                    表单标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.14" data-path="../../HTML/elements.html">
+            
+                <a href="../../HTML/elements.html">
+            
+                    
+                        <b>2.1.14.</b>
+                    
+                    其他标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../intro.html">
+            
+                <a href="../intro.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    CSS教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../selectors/basic.html">
+            
+                <a href="../selectors/basic.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../selectors/pseudo-class.html">
+            
+                <a href="../selectors/pseudo-class.html">
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    伪类选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../selectors/attribute.html">
+            
+                <a href="../selectors/attribute.html">
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    属性选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../text/text.html">
+            
+                <a href="../text/text.html">
+            
+                    
+                        <b>2.2.4.</b>
+                    
+                    Text文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../background.html">
+            
+                <a href="../background.html">
+            
+                    
+                        <b>2.2.5.</b>
+                    
+                    CSS Backgrounds(背景)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../font.html">
+            
+                <a href="../font.html">
+            
+                    
+                        <b>2.2.6.</b>
+                    
+                    CSS Fonts(字体)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../unit.html">
+            
+                <a href="../unit.html">
+            
+                    
+                        <b>2.2.7.</b>
+                    
+                    CSS的单位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../color.html">
+            
+                <a href="../color.html">
+            
+                    
+                        <b>2.2.8.</b>
+                    
+                    CSS color颜色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../block.html">
+            
+                <a href="../block.html">
+            
+                    
+                        <b>2.2.9.</b>
+                    
+                    CSS block 盒状模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../position.html">
+            
+                <a href="../position.html">
+            
+                    
+                        <b>2.2.10.</b>
+                    
+                    CSS 属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../display.html">
+            
+                <a href="../display.html">
+            
+                    
+                        <b>2.2.11.</b>
+                    
+                    CSS display属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../position.html">
+            
+                <a href="../position.html">
+            
+                    
+                        <b>2.2.12.</b>
+                    
+                    CSS position属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="float.html">
+            
+                <a href="float.html">
+            
+                    
+                        <b>2.2.13.</b>
+                    
+                    CSS float属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="grid.html">
+            
+                <a href="grid.html">
+            
+                    
+                        <b>2.2.14.</b>
+                    
+                    CSS grid布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="table.html">
+            
+                <a href="table.html">
+            
+                    
+                        <b>2.2.15.</b>
+                    
+                    CSS table布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.16" data-path="flexbox.html">
+            
+                <a href="flexbox.html">
+            
+                    
+                        <b>2.2.16.</b>
+                    
+                    CSS flexbox布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="column.html">
+            
+                <a href="column.html">
+            
+                    
+                        <b>2.2.17.</b>
+                    
+                    CSS column布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="../media-query.html">
+            
+                <a href="../media-query.html">
+            
+                    
+                        <b>2.2.18.</b>
+                    
+                    CSS 响应式布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="../animation.html">
+            
+                <a href="../animation.html">
+            
+                    
+                        <b>2.2.19.</b>
+                    
+                    CSS 动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="../advance/print.html">
+            
+                <a href="../advance/print.html">
+            
+                    
+                        <b>2.2.20.</b>
+                    
+                    CSS 打印样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="../operation.html">
+            
+                <a href="../operation.html">
+            
+                    
+                        <b>2.2.21.</b>
+                    
+                    CSS 基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="../advanced.html">
+            
+                <a href="../advanced.html">
+            
+                    
+                        <b>2.2.22.</b>
+                    
+                    CSS高级功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../CSS3/Introduction.html">
+            
+                <a href="../../CSS3/Introduction.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    CSS3教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../CSS3/Animation.html">
+            
+                <a href="../../CSS3/Animation.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../CSS3/Border.html">
+            
+                <a href="../../CSS3/Border.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    边框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../CSS3/Background.html">
+            
+                <a href="../../CSS3/Background.html">
+            
+                    
+                        <b>2.3.3.</b>
+                    
+                    背景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../CSS3/Font.html">
+            
+                <a href="../../CSS3/Font.html">
+            
+                    
+                        <b>2.3.4.</b>
+                    
+                    字体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../../CSS3/Multiple Columns.html">
+            
+                <a href="../../CSS3/Multiple Columns.html">
+            
+                    
+                        <b>2.3.5.</b>
+                    
+                    多列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../../CSS3/User Interface.html">
+            
+                <a href="../../CSS3/User Interface.html">
+            
+                    
+                        <b>2.3.6.</b>
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../../CSS3/Transitions Effect.html">
+            
+                <a href="../../CSS3/Transitions Effect.html">
+            
+                    
+                        <b>2.3.7.</b>
+                    
+                    过渡效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../../CSS3/Text Effect.html">
+            
+                <a href="../../CSS3/Text Effect.html">
+            
+                    
+                        <b>2.3.8.</b>
+                    
+                    文本效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.9" data-path="../../CSS3/2D Transform.html">
+            
+                <a href="../../CSS3/2D Transform.html">
+            
+                    
+                        <b>2.3.9.</b>
+                    
+                    2D
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.10" data-path="../../CSS3/3D Transform.html">
+            
+                <a href="../../CSS3/3D Transform.html">
+            
+                    
+                        <b>2.3.10.</b>
+                    
+                    3D
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../git/basic.html">
+            
+                <a href="../../git/basic.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    git教程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../../git/branch.html">
+            
+                <a href="../../git/branch.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    git重要概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../../git/operations.html">
+            
+                <a href="../../git/operations.html">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    git基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../../git/commands.html">
+            
+                <a href="../../git/commands.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">站点信息</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../shengming.html">
+            
+                <a href="../../shengming.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >CSS flexbox布局</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#flex&#x5E03;&#x5C40;"><b>2.2.16.1. </b>flex&#x5E03;&#x5C40;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;"><b>2.2.16.1.1. </b>&#x4E00;&#x3001;Flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><b>2.2.16.1.2. </b>&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;</a></li><li><span class="title-icon "></span><a href="#&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><b>2.2.16.1.3. </b>&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;</a></li><ul><li><span class="title-icon "></span><a href="#31-flex-direction&#x5C5E;&#x6027;"><b>2.2.16.1.3.1. </b>3.1 flex-direction&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#32-flex-wrap&#x5C5E;&#x6027;"><b>2.2.16.1.3.2. </b>3.2 flex-wrap&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#33-flex-flow"><b>2.2.16.1.3.3. </b>3.3 flex-flow</a></li><li><span class="title-icon "></span><a href="#34-justify-content&#x5C5E;&#x6027;"><b>2.2.16.1.3.4. </b>3.4 justify-content&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#35-align-items&#x5C5E;&#x6027;"><b>2.2.16.1.3.5. </b>3.5 align-items&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#36-align-content&#x5C5E;&#x6027;"><b>2.2.16.1.3.6. </b>3.6 align-content&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#&#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><b>2.2.16.1.3.7. </b>&#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#41-order&#x5C5E;&#x6027;"><b>2.2.16.1.3.8. </b>4.1 order&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#42-flex-grow-&#x5C5E;&#x6027;"><b>2.2.16.1.3.9. </b>4.2 flex-grow &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#43-flex-shrink-&#x5C5E;&#x6027;"><b>2.2.16.1.3.10. </b>4.3 flex-shrink &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#44-flex-basis-&#x5C5E;&#x6027;"><b>2.2.16.1.3.11. </b>4.4 flex-basis &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#45-flex-&#x5C5E;&#x6027;"><b>2.2.16.1.3.12. </b>4.5 flex &#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#46-align-self-&#x5C5E;&#x6027;"><b>2.2.16.1.3.13. </b>4.6 align-self &#x5C5E;&#x6027;</a></li></ul></ul><li><span class="title-icon "></span><a href="#flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;"><b>2.2.16.2. </b>Flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;"><b>2.2.16.2.1. </b>&#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;</a></li><ul><li><span class="title-icon "></span><a href="#11-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.1. </b>1.1 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#12-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.2. </b>1.2 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#13-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.3. </b>1.3 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#14-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.4. </b>1.4 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#15-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.5. </b>1.5 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#16-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.6. </b>1.6 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#17-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.7. </b>1.7 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#18-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.8. </b>1.8 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#19-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.9. </b>1.9 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#110-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.10. </b>1.10 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#111-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.11. </b>1.11 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#112-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.12. </b>1.12 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#113-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.13. </b>1.13 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#114-&#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;"><b>2.2.16.2.1.14. </b>1.14 &#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;</a></li><li><span class="title-icon "></span><a href="#115-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.15. </b>1.15 &#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#116-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;"><b>2.2.16.2.1.16. </b>1.16 &#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;</a></li><li><span class="title-icon "></span><a href="#117-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><b>2.2.16.2.1.17. </b>1.17 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;</a></li><li><span class="title-icon "></span><a href="#118-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;"><b>2.2.16.2.1.18. </b>1.18 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;</a></li><li><span class="title-icon "></span><a href="#119-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><b>2.2.16.2.1.19. </b>1.19 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;</a></li><li><span class="title-icon "></span><a href="#120-&#x4E5D;&#x9879;&#x76EE;"><b>2.2.16.2.1.20. </b>1.20 &#x4E5D;&#x9879;&#x76EE;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><b>2.2.16.2.2. </b>&#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;</a></li><ul><li><span class="title-icon "></span><a href="#21-&#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><b>2.2.16.2.2.1. </b>2.1 &#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;</a></li><li><span class="title-icon "></span><a href="#22-&#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;"><b>2.2.16.2.2.2. </b>2.2 &#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;"><b>2.2.16.2.3. </b>&#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;</a></li><li><span class="title-icon "></span><a href="#&#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;"><b>2.2.16.2.4. </b>&#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;</a></li><li><span class="title-icon "></span><a href="#&#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;"><b>2.2.16.2.5. </b>&#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;</a></li><ul><li><span class="title-icon "></span><a href="#&#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;"><b>2.2.16.2.5.1. </b>&#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;"><b>2.2.16.2.6. </b>&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;&#x94FE;&#x63A5;"><b>2.2.16.2.7. </b>&#x53C2;&#x8003;&#x94FE;&#x63A5;</a></li></ul></ul></div><a href="#flex&#x5E03;&#x5C40;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="flex&#x5E03;&#x5C40;"><a name="flex&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#flex&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1. flex&#x5E03;&#x5C40;</h1>
+<p>&#x7F51;&#x9875;&#x5E03;&#x5C40;&#xFF08;layout&#xFF09;&#x662F;CSS&#x7684;&#x4E00;&#x4E2A;&#x91CD;&#x70B9;&#x5E94;&#x7528;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071001.gif" alt=""></p>
+<p>&#x4F20;&#x7EDF;&#x7684;&#x5E03;&#x5C40;&#x6709;&#x4E0B;&#x9762;&#x51E0;&#x79CD;&#x3002;</p>
+<ul>
+<li>display: block;</li>
+<li>display: inline;</li>
+<li>display: list-item;</li>
+<li>display: table;</li>
+</ul>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">display</a>&#x5C5E;&#x6027;&#x642D;&#x914D;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">position</a>&#x5C5E;&#x6027;&#x548C;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float" target="_blank">float</a>&#x5C5E;&#x6027;&#xFF0C;&#x662F;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x5E03;&#x5C40;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#xFF0C;&#x8FD9;&#x4E2A;&#x65B9;&#x6848;&#x57FA;&#x4E8E;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">&#x76D2;&#x72B6;&#x6A21;&#x578B;</a>&#xFF0C;&#x5BF9;&#x4E8E;&#x90A3;&#x4E9B;&#x7279;&#x6B8A;&#x4F4D;&#x7F6E;&#x7684;&#x5E03;&#x5C40;&#x975E;&#x5E38;&#x4E0D;&#x65B9;&#x4FBF;&#x3002;&#x6BD4;&#x5982;&#xFF0C;<a href="https://css-tricks.com/centering-css-complete-guide/" target="_blank">&#x5782;&#x76F4;&#x5C45;&#x4E2D;</a>&#x5C31;&#x5F88;&#x4E0D;&#x5BB9;&#x6613;&#x5B9E;&#x73B0;&#xFF0C;&#x4EE3;&#x7801;&#x597D;&#x50CF;&#x4E00;&#x79CD;&#x7834;&#x89E3;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6B63;&#x5E38;&#x7684;&#x89E3;&#x51B3;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.element</span> {
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateY</span>(-50%);
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071002.png" alt=""></p>
+<p>2009&#x5E74;&#xFF0C;W3C&#x63D0;&#x51FA;&#x4E86;&#x4E00;&#x79CD;&#x65B0;&#x7684;&#x65B9;&#x6848;&#x2014;&#x2014;Flex&#x5E03;&#x5C40;&#xFF0C;&#x7528;&#x6765;&#x7B80;&#x4FBF;&#x5730;&#x3001;&#x5B8C;&#x6574;&#x5730;&#x3001;&#x54CD;&#x5E94;&#x5F0F;&#x5730;&#x5B9E;&#x73B0;&#x5404;&#x79CD;&#x9875;&#x9762;&#x5E03;&#x5C40;&#x3002;&#x7ECF;&#x8FC7;5&#x5E74;&#x591A;&#x7684;&#x53D1;&#x5C55;&#xFF0C;Flex&#x5E03;&#x5C40;&#x51E0;&#x4E4E;&#x5F97;&#x5230;&#x4E86;&#x6240;&#x6709;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x652F;&#x6301;&#x3002;&#x8FD9;&#x610F;&#x5473;&#x7740;&#xFF0C;&#x4F60;&#x73B0;&#x5728;&#x5C31;&#x80FD;&#x5F88;&#x5B89;&#x5168;&#x5730;&#x4F7F;&#x7528;&#x8FD9;&#x9879;&#x529F;&#x80FD;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071003.jpg" alt=""></p>
+<p>&#x53EF;&#x4EE5;&#x6BEB;&#x65E0;&#x7591;&#x95EE;&#x5730;&#x8BF4;&#xFF0C;Flex&#x5E03;&#x5C40;&#x662F;&#x672A;&#x6765;&#x7684;&#x9996;&#x9009;&#x65B9;&#x6848;&#x3002;&#x672C;&#x6587;&#x4ECB;&#x7ECD;&#x5B83;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x7FFB;&#x8BD1;&#x548C;&#x53C2;&#x8003;&#x4E86;&#x4E0B;&#x9762;&#x4E24;&#x7BC7;&#x6587;&#x7AE0;&#xFF1A;<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a>&#x548C;<a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a>&#x3002;</p>
+<h2 id="&#x4E00;&#x3001;flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;"><a name="&#x4E00;&#x3001;flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.1. &#x4E00;&#x3001;Flex&#x5E03;&#x5C40;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h2>
+<p>Flex &#x662F; flexible box &#x7684;&#x7F29;&#x5199;&#xFF0C;&#x610F;&#x4E3A;&#x5F39;&#x6027;&#x7684;&#x76D2;&#x72B6;&#x5E03;&#x5C40;&#xFF0C;&#x4E2D;&#x6587;&#x53EF;&#x4EE5;&#x8BD1;&#x4E3A;&#x201C;&#x5F39;&#x6027;&#x5E03;&#x5C40;&#x201D;&#x3002;&#x5B83;&#x7684;&#x8BBE;&#x8BA1;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x76D2;&#x72B6;&#x6A21;&#x578B;&#x63D0;&#x4F9B;&#x6700;&#x5927;&#x7684;&#x7075;&#x6D3B;&#x6027;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x77E5;&#x9053;&#x5BB9;&#x5668;&#x5927;&#x5C0F;&#x6216;&#x8005;&#x5BB9;&#x5668;&#x5927;&#x5C0F;&#x53EF;&#x53D8;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6307;&#x5B9A;&#x5E03;&#x5C40;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x90FD;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x4E3A; Flex &#x5E03;&#x5C40;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+</code></pre>
+<p>&#x884C;&#x5185;&#x5143;&#x7D20;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Flex &#x5E03;&#x5C40;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: inline-flex;
+}
+</code></pre>
+<p>Webkit&#x5185;&#x6838;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x5FC5;&#x987B;&#x52A0;&#x4E0A;-webkit&#x524D;&#x7F00;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span>{
+  <span class="hljs-attribute">display</span>: -webkit-flex; <span class="hljs-comment">/* Safari */</span>
+  <span class="hljs-attribute">display</span>: flex;
+}
+</code></pre>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x8BBE;&#x4E3A;Flex&#x5E03;&#x5C40;&#x4EE5;&#x540E;&#xFF0C;&#x5B50;&#x5143;&#x7D20;&#x7684;float&#x3001;clear&#x548C;vertical-align&#x5C5E;&#x6027;&#x5C06;&#x5931;&#x6548;&#x3002;</p>
+<h2 id="&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><a name="&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.2. &#x4E8C;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;</h2>
+<p>&#x91C7;&#x7528; Flex &#x5E03;&#x5C40;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x79F0;&#x4E3A; Flex &#x5BB9;&#x5668;&#xFF08;flex container&#xFF09;&#xFF0C;&#x7B80;&#x79F0;&#x201C;&#x5BB9;&#x5668;&#x201D;&#x3002;&#x5B83;&#x7684;&#x6240;&#x6709;&#x5B50;&#x5143;&#x7D20;&#x81EA;&#x52A8;&#x6210;&#x4E3A;&#x5BB9;&#x5668;&#x6210;&#x5458;&#xFF0C;&#x79F0;&#x4E3A; Flex &#x9879;&#x76EE;&#xFF08;flex item&#xFF09;&#xFF0C;&#x7B80;&#x79F0;&#x201C;&#x9879;&#x76EE;&#x201D;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png" alt=""></p>
+<p>&#x5BB9;&#x5668;&#x9ED8;&#x8BA4;&#x5B58;&#x5728;&#x4E24;&#x6839;&#x8F74;&#xFF1A;&#x6C34;&#x5E73;&#x7684;&#x4E3B;&#x8F74;&#xFF08;main axis&#xFF09;&#x548C;&#x5782;&#x76F4;&#x7684;&#x4EA4;&#x53C9;&#x8F74;&#xFF08;cross axis&#xFF09;&#x3002;&#x4E3B;&#x8F74;&#x7684;&#x5F00;&#x59CB;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0E;&#x8FB9;&#x6846;&#x7684;&#x4EA4;&#x53C9;&#x70B9;&#xFF09;&#x53EB;&#x505A;main start&#xFF0C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x53EB;&#x505A;main end&#xFF1B;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x5F00;&#x59CB;&#x4F4D;&#x7F6E;&#x53EB;&#x505A;cross start&#xFF0C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x53EB;&#x505A;cross end&#x3002;</p>
+<p>&#x9879;&#x76EE;&#x9ED8;&#x8BA4;&#x6CBF;&#x4E3B;&#x8F74;&#x6392;&#x5217;&#xFF0C;&#x5728;&#x4E3B;&#x8F74;&#x5360;&#x636E;&#x7684;&#x7A7A;&#x95F4;&#x53EB;&#x505A; main size&#xFF0C;&#x5728;&#x4EA4;&#x53C9;&#x8F74;&#x5360;&#x636E;&#x7684;&#x7A7A;&#x95F4;&#x53EB;&#x505A; cross size&#x3002;</p>
+<h2 id="&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><a name="&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3. &#x4E09;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;</h2>
+<p>&#x4EE5;&#x4E0B; 6 &#x4E2A;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5728;&#x5BB9;&#x5668;&#x4E0A;&#x3002;</p>
+<blockquote>
+<ul>
+<li>flex-direction</li>
+<li>flex-wrap</li>
+<li>flex-flow</li>
+<li>justify-content</li>
+<li>align-items</li>
+<li>align-content</li>
+</ul>
+</blockquote>
+<h3 id="31-flex-direction&#x5C5E;&#x6027;"><a name="31-flex-direction&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#31-flex-direction&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.1. 3.1 flex-direction&#x5C5E;&#x6027;</h3>
+<p><code>flex-direction</code>&#x5C5E;&#x6027;&#x51B3;&#x5B9A;&#x4E3B;&#x8F74;&#x7684;&#x65B9;&#x5411;&#xFF08;&#x5373;&#x9879;&#x76EE;&#x7684;&#x6392;&#x5217;&#x65B9;&#x5411;&#xFF09;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">flex-direction</span>: row | row-reverse | column | column-reverse;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png" alt=""></p>
+<p>&#x5B83;&#x53EF;&#x80FD;&#x6709;4&#x4E2A;&#x503C;&#x3002;</p>
+<ul>
+<li><code>row</code>&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF1A;&#x4E3B;&#x8F74;&#x4E3A;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#xFF0C;&#x8D77;&#x70B9;&#x5728;&#x5DE6;&#x7AEF;&#x3002;</li>
+<li><code>row-reverse</code>&#xFF1A;&#x4E3B;&#x8F74;&#x4E3A;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#xFF0C;&#x8D77;&#x70B9;&#x5728;&#x53F3;&#x7AEF;&#x3002;</li>
+<li><code>column</code>&#xFF1A;&#x4E3B;&#x8F74;&#x4E3A;&#x5782;&#x76F4;&#x65B9;&#x5411;&#xFF0C;&#x8D77;&#x70B9;&#x5728;&#x4E0A;&#x6CBF;&#x3002;</li>
+<li><code>column-reverse</code>&#xFF1A;&#x4E3B;&#x8F74;&#x4E3A;&#x5782;&#x76F4;&#x65B9;&#x5411;&#xFF0C;&#x8D77;&#x70B9;&#x5728;&#x4E0B;&#x6CBF;&#x3002;</li>
+</ul>
+<h3 id="32-flex-wrap&#x5C5E;&#x6027;"><a name="32-flex-wrap&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#32-flex-wrap&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.2. 3.2 flex-wrap&#x5C5E;&#x6027;</h3>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x9879;&#x76EE;&#x90FD;&#x6392;&#x5728;&#x4E00;&#x6761;&#x7EBF;&#xFF08;&#x53C8;&#x79F0;&#x201C;&#x8F74;&#x7EBF;&#x201D;&#xFF09;&#x4E0A;&#x3002;<code>flex-wrap</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#xFF0C;&#x5982;&#x679C;&#x4E00;&#x6761;&#x8F74;&#x7EBF;&#x6392;&#x4E0D;&#x4E0B;&#xFF0C;&#x5982;&#x4F55;&#x6362;&#x884C;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071006.png" alt=""></p>
+<pre><code class="lang-javascript">.box{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+</code></pre>
+<p>&#x5B83;&#x53EF;&#x80FD;&#x53D6;&#x4E09;&#x4E2A;&#x503C;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071007.png" alt=""></p>
+<p>&#xFF08;1&#xFF09;<code>nowrap</code>&#xFF08;&#x9ED8;&#x8BA4;&#xFF09;&#xFF1A;&#x4E0D;&#x6362;&#x884C;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071008.jpg" alt=""></p>
+<p>&#xFF08;2&#xFF09;<code>wrap</code>&#xFF1A;&#x6362;&#x884C;&#xFF0C;&#x7B2C;&#x4E00;&#x884C;&#x5728;&#x4E0A;&#x65B9;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071009.jpg" alt=""></p>
+<p>&#xFF08;3&#xFF09;<code>wrap-reverse</code>&#xFF1A;&#x6362;&#x884C;&#xFF0C;&#x7B2C;&#x4E00;&#x884C;&#x5728;&#x4E0B;&#x65B9;&#x3002;</p>
+<h3 id="33-flex-flow"><a name="33-flex-flow" class="anchor-navigation-ex-anchor" href="#33-flex-flow"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.3. 3.3 flex-flow</h3>
+<p><code>flex-flow</code>&#x5C5E;&#x6027;&#x662F;<code>flex-direction</code>&#x5C5E;&#x6027;&#x548C;<code>flex-wrap</code>&#x5C5E;&#x6027;&#x7684;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>row nowrap</code>&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">flex-flow</span>: &lt;flex-direction&gt; || &lt;flex-wrap&gt;;
+}
+</code></pre>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">div</span> {
+    <span class="hljs-attribute">display</span>: flex;
+    <span class="hljs-attribute">flex-flow</span>: row wrap;
+}
+</code></pre>
+<h3 id="34-justify-content&#x5C5E;&#x6027;"><a name="34-justify-content&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#34-justify-content&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.4. 3.4 justify-content&#x5C5E;&#x6027;</h3>
+<p><code>justify-content</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x9879;&#x76EE;&#x5728;&#x4E3B;&#x8F74;&#x4E0A;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-javascript">.box {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071010.png" alt=""></p>
+<p>&#x5B83;&#x53EF;&#x80FD;&#x53D6;5&#x4E2A;&#x503C;&#xFF0C;&#x5177;&#x4F53;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#x4E0E;&#x8F74;&#x7684;&#x65B9;&#x5411;&#x6709;&#x5173;&#x3002;&#x4E0B;&#x9762;&#x5047;&#x8BBE;&#x4E3B;&#x8F74;&#x4E3A;&#x4ECE;&#x5DE6;&#x5230;&#x53F3;&#x3002;</p>
+<ul>
+<li><code>flex-start</code>&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF1A;&#x5DE6;&#x5BF9;&#x9F50;</li>
+<li><code>flex-end</code>&#xFF1A;&#x53F3;&#x5BF9;&#x9F50;</li>
+<li><code>center</code>&#xFF1A; &#x5C45;&#x4E2D;</li>
+<li><code>space-between</code>&#xFF1A;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x9879;&#x76EE;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x90FD;&#x76F8;&#x7B49;&#xFF0C;&#x9879;&#x76EE;&#x4E0E;&#x8FB9;&#x6846;&#x6CA1;&#x6709;&#x95F4;&#x9694;&#x3002;</li>
+<li><code>space-around</code>&#xFF1A;&#x6BCF;&#x4E2A;&#x9879;&#x76EE;&#x4E24;&#x4FA7;&#x7684;&#x95F4;&#x9694;&#x76F8;&#x7B49;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x9879;&#x76EE;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x6BD4;&#x9879;&#x76EE;&#x4E0E;&#x8FB9;&#x6846;&#x7684;&#x95F4;&#x9694;&#x5927;&#x4E00;&#x500D;&#x3002;</li>
+</ul>
+<h3 id="35-align-items&#x5C5E;&#x6027;"><a name="35-align-items&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#35-align-items&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.5. 3.5 align-items&#x5C5E;&#x6027;</h3>
+<p><code>align-items</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x9879;&#x76EE;&#x5728;&#x4EA4;&#x53C9;&#x8F74;&#x4E0A;&#x5982;&#x4F55;&#x5BF9;&#x9F50;&#x3002;</p>
+<pre><code class="lang-javascript">.box {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071011.png" alt=""></p>
+<p>&#x5B83;&#x53EF;&#x80FD;&#x53D6;5&#x4E2A;&#x503C;&#x3002;&#x5177;&#x4F53;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#x4E0E;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x65B9;&#x5411;&#x6709;&#x5173;&#xFF0C;&#x4E0B;&#x9762;&#x5047;&#x8BBE;&#x4EA4;&#x53C9;&#x8F74;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x3002;</p>
+<ul>
+<li><code>flex-start</code>&#xFF1A;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x8D77;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>flex-end</code>&#xFF1A;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x7EC8;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>center</code>&#xFF1A;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x4E2D;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>baseline</code>: &#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x884C;&#x6587;&#x5B57;&#x7684;&#x57FA;&#x7EBF;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>stretch</code>&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF1A;&#x5982;&#x679C;&#x9879;&#x76EE;&#x672A;&#x8BBE;&#x7F6E;&#x9AD8;&#x5EA6;&#x6216;&#x8BBE;&#x4E3A;auto&#xFF0C;&#x5C06;&#x5360;&#x6EE1;&#x6574;&#x4E2A;&#x5BB9;&#x5668;&#x7684;&#x9AD8;&#x5EA6;&#x3002;</li>
+</ul>
+<h3 id="36-align-content&#x5C5E;&#x6027;"><a name="36-align-content&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#36-align-content&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.6. 3.6 align-content&#x5C5E;&#x6027;</h3>
+<p><code>align-content</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x591A;&#x6839;&#x8F74;&#x7EBF;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#x3002;&#x5982;&#x679C;&#x9879;&#x76EE;&#x53EA;&#x6709;&#x4E00;&#x6839;&#x8F74;&#x7EBF;&#xFF0C;&#x8BE5;&#x5C5E;&#x6027;&#x4E0D;&#x8D77;&#x4F5C;&#x7528;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">align-content</span>: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071012.png" alt=""></p>
+<p>&#x8BE5;&#x5C5E;&#x6027;&#x53EF;&#x80FD;&#x53D6;6&#x4E2A;&#x503C;&#x3002;</p>
+<blockquote>
+<ul>
+<li><code>flex-start</code>&#xFF1A;&#x4E0E;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x8D77;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>flex-end</code>&#xFF1A;&#x4E0E;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x7EC8;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>center</code>&#xFF1A;&#x4E0E;&#x4EA4;&#x53C9;&#x8F74;&#x7684;&#x4E2D;&#x70B9;&#x5BF9;&#x9F50;&#x3002;</li>
+<li><code>space-between</code>&#xFF1A;&#x4E0E;&#x4EA4;&#x53C9;&#x8F74;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x8F74;&#x7EBF;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x5E73;&#x5747;&#x5206;&#x5E03;&#x3002;</li>
+<li><code>space-around</code>&#xFF1A;&#x6BCF;&#x6839;&#x8F74;&#x7EBF;&#x4E24;&#x4FA7;&#x7684;&#x95F4;&#x9694;&#x90FD;&#x76F8;&#x7B49;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x8F74;&#x7EBF;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x6BD4;&#x8F74;&#x7EBF;&#x4E0E;&#x8FB9;&#x6846;&#x7684;&#x95F4;&#x9694;&#x5927;&#x4E00;&#x500D;&#x3002;</li>
+<li><code>stretch</code>&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF1A;&#x8F74;&#x7EBF;&#x5360;&#x6EE1;&#x6574;&#x4E2A;&#x4EA4;&#x53C9;&#x8F74;&#x3002;</li>
+</ul>
+</blockquote>
+<h3 id="&#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><a name="&#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.7. &#x56DB;&#x3001;&#x5BB9;&#x5668;&#x7684;&#x5C5E;&#x6027;</h3>
+<p>&#x4EE5;&#x4E0B;6&#x4E2A;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5728;&#x9879;&#x76EE;&#x4E0A;&#x3002;</p>
+<ul>
+<li><code>order</code></li>
+<li><code>flex-grow</code></li>
+<li><code>flex-shrink</code></li>
+<li><code>flex-basis</code></li>
+<li><code>flex</code></li>
+<li><code>align-self</code></li>
+</ul>
+<h3 id="41-order&#x5C5E;&#x6027;"><a name="41-order&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#41-order&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.8. 4.1 order&#x5C5E;&#x6027;</h3>
+<p>&#x9879;&#x76EE;&#x5728;&#x4E3B;&#x8F74;&#x7684;&#x6392;&#x5217;&#x987A;&#x5E8F;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x5176;&#x51FA;&#x73B0;&#x7684;&#x987A;&#x5E8F;&#x3002;<code>order</code>&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x6539;&#x53D8;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x8BA9;&#x540E;&#x9762;&#x51FA;&#x73B0;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x6392;&#x5230;&#x524D;&#x9762;&#x53BB;&#x3002;</p>
+<p><code>order</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x9879;&#x76EE;&#x7684;&#x6392;&#x5217;&#x987A;&#x5E8F;&#x3002;&#x6570;&#x503C;&#x8D8A;&#x5C0F;&#xFF0C;&#x6392;&#x5217;&#x8D8A;&#x9760;&#x524D;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;<code>0</code>&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">order</span>: &lt;integer&gt;;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071013.png" alt=""></p>
+<h3 id="42-flex-grow-&#x5C5E;&#x6027;"><a name="42-flex-grow-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#42-flex-grow-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.9. 4.2 flex-grow &#x5C5E;&#x6027;</h3>
+<p><code>flex-grow</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x9879;&#x76EE;&#x7684;&#x653E;&#x5927;&#x6BD4;&#x4F8B;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;0&#xFF0C;&#x5373;&#x5982;&#x679C;&#x4E3B;&#x8F74;&#x5B58;&#x5728;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#xFF0C;&#x4E5F;&#x4E0D;&#x653E;&#x5927;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">flex-grow</span>: &lt;number&gt;; <span class="hljs-comment">/* default 0 */</span>
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071014.png" alt=""></p>
+<p>&#x5982;&#x679C;&#x6240;&#x6709;&#x9879;&#x76EE;&#x7684;<code>flex-grow</code>&#x5C5E;&#x6027;&#x90FD;&#x4E3A;1&#xFF0C;&#x5219;&#x5B83;&#x4EEC;&#x5C06;&#x7B49;&#x5206;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#xFF08;&#x5982;&#x679C;&#x6709;&#x7684;&#x8BDD;&#xFF09;&#x3002;&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x7684;<code>flex-grow</code>&#x5C5E;&#x6027;&#x4E3A;2&#xFF0C;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x90FD;&#x4E3A;1&#xFF0C;&#x5219;&#x524D;&#x8005;&#x5360;&#x636E;&#x7684;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#x5C06;&#x6BD4;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x591A;&#x4E00;&#x500D;&#x3002;&#x56E0;&#x6B64;&#xFF0C;<code>flex-grow</code>&#x4E5F;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x6210;&#x653E;&#x5927;&#x7684;&#x901F;&#x7387;&#xFF0C;<code>2</code>&#x7684;&#x589E;&#x957F;&#x901F;&#x7387;&#x6BD4;<code>1</code>&#x5FEB;&#x4E00;&#x500D;&#x3002;</p>
+<p><code>flex-grow</code>&#x7684;&#x503C;&#x662F;&#x4E00;&#x79CD;&#x6BD4;&#x4F8B;&#x5173;&#x7CFB;&#xFF0C;&#x6240;&#x6709;&#x9879;&#x76EE;&#x90FD;&#x8BBE;&#x6210;<code>1</code>&#xFF0C;&#x4E0E;&#x90FD;&#x8BBE;&#x6210;<code>2</code>&#x6216;<code>0.5</code>&#xFF0C;&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<h3 id="43-flex-shrink-&#x5C5E;&#x6027;"><a name="43-flex-shrink-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#43-flex-shrink-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.10. 4.3 flex-shrink &#x5C5E;&#x6027;</h3>
+<p><code>flex-shrink</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x9879;&#x76EE;&#x7684;&#x7F29;&#x5C0F;&#x6BD4;&#x4F8B;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;1&#xFF0C;&#x5373;&#x5982;&#x679C;&#x7A7A;&#x95F4;&#x4E0D;&#x8DB3;&#xFF0C;&#x8BE5;&#x9879;&#x76EE;&#x5C06;&#x7F29;&#x5C0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">flex-shrink</span>: &lt;number&gt;; <span class="hljs-comment">/* default 1 */</span>
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071015.jpg" alt=""></p>
+<p>&#x5982;&#x679C;&#x6240;&#x6709;&#x9879;&#x76EE;&#x7684;<code>flex-shrink</code>&#x5C5E;&#x6027;&#x90FD;&#x4E3A;1&#xFF0C;&#x5F53;&#x7A7A;&#x95F4;&#x4E0D;&#x8DB3;&#x65F6;&#xFF0C;&#x90FD;&#x5C06;&#x7B49;&#x6BD4;&#x4F8B;&#x7F29;&#x5C0F;&#xFF0C;&#x5426;&#x5219;&#x9879;&#x76EE;&#x5BBD;&#x5EA6;&#x5927;&#x4E8E;&#x5BB9;&#x5668;&#x5BBD;&#x5EA6;&#xFF0C;&#x4F1A;&#x53D1;&#x751F;&#x6EA2;&#x51FA;&#x3002;&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x7684;<code>flex-shrink</code>&#x5C5E;&#x6027;&#x4E3A;0&#xFF0C;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x90FD;&#x4E3A;1&#xFF0C;&#x5219;&#x7A7A;&#x95F4;&#x4E0D;&#x8DB3;&#x65F6;&#xFF0C;&#x524D;&#x8005;&#x4E0D;&#x7F29;&#x5C0F;&#x3002;</p>
+<p>&#x8D1F;&#x503C;&#x5BF9;&#x8BE5;&#x5C5E;&#x6027;&#x65E0;&#x6548;&#x3002;</p>
+<h3 id="44-flex-basis-&#x5C5E;&#x6027;"><a name="44-flex-basis-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#44-flex-basis-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.11. 4.4 flex-basis &#x5C5E;&#x6027;</h3>
+<p><code>flex-basis</code>&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x5728;&#x5206;&#x914D;&#x591A;&#x4F59;&#x7A7A;&#x95F4;&#x4E4B;&#x524D;&#xFF0C;&#x9879;&#x76EE;&#x5360;&#x636E;&#x7684;&#x4E3B;&#x8F74;&#x7A7A;&#x95F4;&#xFF08;main size&#xFF09;&#xFF0C;&#x5373;&#x9879;&#x76EE;&#x672C;&#x8EAB;&#x7684;&#x5C3A;&#x5BF8;&#x3002;&#x6D4F;&#x89C8;&#x5668;&#x6839;&#x636E;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x8BA1;&#x7B97;&#x4E3B;&#x8F74;&#x662F;&#x5426;&#x6709;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#x3002;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>auto</code>&#xFF0C;&#x5373;&#x9879;&#x76EE;&#x7684;&#x672C;&#x6765;&#x5927;&#x5C0F;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">flex-basis</span>: &lt;length&gt; | auto; <span class="hljs-comment">/* default auto */</span>
+}
+</code></pre>
+<p>&#x5B83;&#x53EF;&#x4EE5;&#x8BBE;&#x4E3A;&#x8DDF;<code>width</code>&#x6216;<code>height</code>&#x5C5E;&#x6027;&#x4E00;&#x6837;&#x7684;&#x503C;&#xFF08;&#x6BD4;&#x5982;350px&#x3001;20%&#x3001;5em&#x7B49;&#x7B49;&#xFF09;&#xFF0C;&#x5219;&#x9879;&#x76EE;&#x5C06;&#x5360;&#x636E;&#x56FA;&#x5B9A;&#x7A7A;&#x95F4;&#x3002;</p>
+<h3 id="45-flex-&#x5C5E;&#x6027;"><a name="45-flex-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#45-flex-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.12. 4.5 flex &#x5C5E;&#x6027;</h3>
+<p><code>flex</code>&#x5C5E;&#x6027;&#x662F;<code>flex-grow</code>, <code>flex-shrink</code> &#x548C; <code>flex-basis</code>&#x7684;&#x7B80;&#x5199;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>0 1 auto</code>&#x3002;&#x540E;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x53EF;&#x9009;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.item</span> {
+  <span class="hljs-attribute">flex</span>: none | [ &lt;<span class="hljs-string">&apos;flex-grow&apos;</span>&gt; &lt;<span class="hljs-string">&apos;flex-shrink&apos;</span>&gt;? || &lt;<span class="hljs-string">&apos;flex-basis&apos;</span>&gt; ]
+}
+</code></pre>
+<p>&#x8BE5;&#x5C5E;&#x6027;&#x6709;&#x4E24;&#x4E2A;&#x5FEB;&#x6377;&#x503C;&#xFF1A;<code>auto</code> (&#x4EE3;&#x8868;<code>1 1 auto</code>) &#x548C; none (&#x4EE3;&#x8868;<code>0 0 auto</code>)&#x3002;</p>
+<h3 id="46-align-self-&#x5C5E;&#x6027;"><a name="46-align-self-&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#46-align-self-&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.1.3.13. 4.6 align-self &#x5C5E;&#x6027;</h3>
+<p><code>align-self</code>&#x5C5E;&#x6027;&#x5141;&#x8BB8;&#x5355;&#x4E2A;&#x9879;&#x76EE;&#x6709;&#x4E0E;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#xFF0C;&#x53EF;&#x8986;&#x76D6;<code>align-items</code>&#x5C5E;&#x6027;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>auto</code>&#xFF0C;&#x8868;&#x793A;&#x7EE7;&#x627F;&#x7236;&#x5143;&#x7D20;&#x7684;<code>align-items</code>&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x7236;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x7B49;&#x540C;&#x4E8E;<code>stretch</code>&#x3002;</p>
+<pre><code class="lang-javascript">.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+</code></pre>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071016.png" alt=""></p>
+<p>&#x8BE5;&#x5C5E;&#x6027;&#x53EF;&#x80FD;&#x53D6;6&#x4E2A;&#x503C;&#xFF0C;&#x9664;&#x4E86;<code>auto</code>&#xFF0C;&#x5176;&#x4ED6;&#x90FD;&#x4E0E;<code>align-items</code>&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x4E00;&#x81F4;&#x3002;</p>
+<p>&#xFF08;&#x5B8C;&#xFF09;</p>
+<h1 id="flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;"><a name="flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2. Flex&#x5E03;&#x5C40;&#x5B9E;&#x4F8B;&#x6559;&#x7A0B;</h1>
+<p><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank">&#x4E0A;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;</a>&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;Flex&#x5E03;&#x5C40;&#x7684;&#x8BED;&#x6CD5;&#x3002;</p>
+<p>&#x4ECA;&#x5929;&#x4ECB;&#x7ECD;&#xFF0C;&#x5E38;&#x89C1;&#x5E03;&#x5C40;&#x7684;Flex&#x5199;&#x6CD5;&#x3002;&#x4F60;&#x4F1A;&#x770B;&#x5230;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;&#x4EC0;&#x4E48;&#x5E03;&#x5C40;&#xFF0C;Flex&#x5F80;&#x5F80;&#x90FD;&#x53EF;&#x4EE5;&#x51E0;&#x884C;&#x547D;&#x4EE4;&#x641E;&#x5B9A;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x6211;&#x53EA;&#x5217;&#x51FA;&#x4EE3;&#x7801;&#xFF0C;&#x8BE6;&#x7EC6;&#x7684;&#x8BED;&#x6CD5;&#x89E3;&#x91CA;&#x8BF7;&#x67E5;&#x9605;<a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank">&#x300A;Flex&#x5E03;&#x5C40;&#x8BED;&#x6CD5;&#x6559;&#x7A0B;&#x300B;</a>&#x3002;</p>
+<p>&#x6211;&#x4E3B;&#x8981;&#x53C2;&#x8003;&#x4E86;<a href="http://davidwalsh.name/flexbox-dice" target="_blank">Landon Schropp</a>&#x7684;&#x6587;&#x7AE0;&#x548C;<a href="http://philipwalton.github.io/solved-by-flexbox/" target="_blank">Solved by Flexbox</a>&#x3002;</p>
+<h2 id="&#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;"><a name="&#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1. &#x4E00;&#x3001;&#x9AB0;&#x5B50;&#x7684;&#x5E03;&#x5C40;</h2>
+<p>&#x5982;&#x679C;&#x4E0D;&#x52A0;&#x8BF4;&#x660E;&#xFF0C;&#x672C;&#x8282;&#x7684;HTML&#x6A21;&#x677F;&#x4E00;&#x5F8B;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;div&#x5143;&#x7D20;&#x662F;Flex&#x5BB9;&#x5668;&#xFF0C;span&#x5143;&#x7D20;&#x662F;Flex&#x9879;&#x76EE;&#x3002;&#x5982;&#x679C;&#x6709;&#x591A;&#x4E2A;&#x9879;&#x76EE;&#xFF0C;&#x5C31;&#x8981;&#x6DFB;&#x52A0;&#x591A;&#x4E2A;span&#x5143;&#x7D20;&#xFF0C;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;&#x3002;</p>
+<h3 id="11-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><a name="11-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#11-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.1. 1.1 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;</h3>
+<p>Flex&#x5E03;&#x5C40;&#x9ED8;&#x8BA4;&#x5C31;&#x662F;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x6240;&#x4EE5;&#x4E00;&#x884C;&#x4EE3;&#x7801;&#x5C31;&#x591F;&#x4E86;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071301.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+</code></pre>
+<h3 id="12-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><a name="12-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#12-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.2. 1.2 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071302.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+}
+</code></pre>
+<h3 id="13-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><a name="13-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#13-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.3. 1.3 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071303.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: flex-end;
+}
+</code></pre>
+<h3 id="14-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><a name="14-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#14-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.4. 1.4 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071304.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: center;
+}
+</code></pre>
+<h3 id="15-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><a name="15-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#15-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.5. 1.5 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071305.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+}
+</code></pre>
+<h3 id="16-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><a name="16-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#16-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.6. 1.6 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071306.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: center;
+  <span class="hljs-attribute">align-items</span>: flex-end;
+}
+</code></pre>
+<h3 id="17-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><a name="17-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#17-&#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.7. 1.7 &#x5355;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071307.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: flex-end;
+  <span class="hljs-attribute">align-items</span>: flex-end;
+}
+</code></pre>
+<h3 id="18-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><a name="18-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#18-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.8. 1.8 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071308.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+</code></pre>
+<h3 id="19-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><a name="19-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#19-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.9. 1.9 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071309.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+</code></pre>
+<h3 id="110-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><a name="110-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#110-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.10. 1.10 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x4E2D;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071310.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+  <span class="hljs-attribute">align-items</span>: center;
+}
+</code></pre>
+<h3 id="111-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><a name="111-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#111-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.11. 1.11 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x5C3E;&#x5217;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071311.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+  <span class="hljs-attribute">align-items</span>: flex-end;
+}
+</code></pre>
+<h3 id="112-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><a name="112-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#112-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.12. 1.12 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071312.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.item</span><span class="hljs-selector-pseudo">:nth-child(2)</span> {
+  <span class="hljs-attribute">align-self</span>: center;
+}
+</code></pre>
+<h3 id="113-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><a name="113-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#113-&#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.13. 1.13 &#x53CC;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x5DE6;&#x5BF9;&#x9F50;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071313.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+
+<span class="hljs-selector-class">.item</span><span class="hljs-selector-pseudo">:nth-child(2)</span> {
+  <span class="hljs-attribute">align-self</span>: flex-end;
+}
+</code></pre>
+<h3 id="114-&#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;"><a name="114-&#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#114-&#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.14. 1.14 &#x4E09;&#x9879;&#x76EE;&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x5E03;&#x5C40;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071314.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.item</span><span class="hljs-selector-pseudo">:nth-child(2)</span> {
+  <span class="hljs-attribute">align-self</span>: center;
+}
+
+<span class="hljs-selector-class">.item</span><span class="hljs-selector-pseudo">:nth-child(3)</span> {
+  <span class="hljs-attribute">align-self</span>: flex-end;
+}
+</code></pre>
+<h3 id="115-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><a name="115-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#115-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.15. 1.15 &#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x53F3;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071315.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">justify-content</span>: flex-end;
+  <span class="hljs-attribute">align-content</span>: space-between;
+}
+</code></pre>
+<h3 id="116-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;"><a name="116-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;" class="anchor-navigation-ex-anchor" href="#116-&#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.16. 1.16 &#x56DB;&#x9879;&#x76EE;&#xFF1A;&#x56DB;&#x89D2;&#x5BF9;&#x9F50;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071316.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;column&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;column&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">align-content</span>: space-between;
+}
+
+<span class="hljs-selector-class">.column</span> {
+  <span class="hljs-attribute">flex-basis</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+</code></pre>
+<h3 id="117-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><a name="117-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;" class="anchor-navigation-ex-anchor" href="#117-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.17. 1.17 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071317.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">align-content</span>: space-between;
+}
+</code></pre>
+<h3 id="118-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;"><a name="118-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;" class="anchor-navigation-ex-anchor" href="#118-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.18. 1.18 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x5217;&#x6392;&#x6EE1;&#xFF0C;&#x5C3E;&#x5217;&#x6392;&#x6EE1;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071318.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+  <span class="hljs-attribute">align-content</span>: space-between;
+}
+</code></pre>
+<h3 id="119-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><a name="119-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;" class="anchor-navigation-ex-anchor" href="#119-&#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.19. 1.19 &#x516D;&#x9879;&#x76EE;&#xFF1A;&#x9996;&#x884C;&#x4E24;&#x7AEF;&#x5BF9;&#x9F50;&#xFF0C;&#x4E2D;&#x884C;&#x5C45;&#x4E2D;&#xFF0C;&#x5C3E;&#x884C;&#x6392;&#x6EE1;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071319.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+}
+
+<span class="hljs-selector-class">.row</span>{
+  <span class="hljs-attribute">flex-basis</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">display</span>:flex;
+}
+
+<span class="hljs-selector-class">.row</span><span class="hljs-selector-pseudo">:nth-child(2)</span>{
+  <span class="hljs-attribute">justify-content</span>: center;
+}
+
+<span class="hljs-selector-class">.row</span><span class="hljs-selector-pseudo">:nth-child(3)</span>{
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+</code></pre>
+<h3 id="120-&#x4E5D;&#x9879;&#x76EE;"><a name="120-&#x4E5D;&#x9879;&#x76EE;" class="anchor-navigation-ex-anchor" href="#120-&#x4E5D;&#x9879;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.1.20. 1.20 &#x4E5D;&#x9879;&#x76EE;</h3>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071320.png" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-wrap</span>: wrap;
+}
+</code></pre>
+<h2 id="&#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><a name="&#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.2. &#x4E8C;&#x3001;&#x7F51;&#x683C;&#x5E03;&#x5C40;</h2>
+<h3 id="21-&#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><a name="21-&#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#21-&#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.2.1. 2.1 &#x57FA;&#x672C;&#x7F51;&#x683C;&#x5E03;&#x5C40;</h3>
+<p>&#x5BB9;&#x5668;&#x5E73;&#x5747;&#x5206;&#x914D;&#x7A7A;&#x95F4;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071321.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.Grid</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x8FD9;&#x6837;&#x7684;&#x8BBE;&#x7F6E;&#xFF0C;&#x4E0D;&#x7BA1;&#x7236;&#x5BB9;&#x5668;&#x4E4B;&#x4E2D;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x9879;&#x76EE;&#xFF0C;&#x90FD;&#x4F1A;&#x5E73;&#x5206;&#x5BBD;&#x5EA6;&#x3002;</p>
+<p>&#x9047;&#x5230;&#x5C0F;&#x5C4F;&#x5E55;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; media query&#xFF0C;&#x8BA9;&#x9879;&#x76EE;&#x5360;&#x6EE1;&#x4E00;&#x884C;&#x3002;</p>
+<pre><code class="lang-css">@<span class="hljs-keyword">media</span> (max-width: <span class="hljs-number">400px</span>) {
+  <span class="hljs-selector-class">.flex-grid</span> {
+    <span class="hljs-attribute">display</span>: block;
+  }
+}
+</code></pre>
+<p>&#x7F51;&#x683C;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#xFF0C;&#x53EF;&#x4EE5;&#x50CF;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#x8BBE;&#x7F6E;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.flex-grid-thirds</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: space-between;
+}
+<span class="hljs-selector-class">.flex-grid-thirds</span> <span class="hljs-selector-class">.col</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">32%</span>;
+}
+</code></pre>
+<h3 id="22-&#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;"><a name="22-&#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#22-&#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.2.2. 2.2 &#x767E;&#x5206;&#x6BD4;&#x5E03;&#x5C40;</h3>
+<p>&#x67D0;&#x9879;&#x76EE;&#x5360;&#x636E;&#x56FA;&#x5B9A;&#x7684;&#x767E;&#x5206;&#x6BD4;&#xFF0C;&#x5176;&#x4F59;&#x9879;&#x76EE;&#x5E73;&#x5747;&#x5206;&#x914D;&#x7A7A;&#x95F4;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071322.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-1of4&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-1of3&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-css"><span class="hljs-selector-class">.Grid</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span><span class="hljs-selector-class">.u-full</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">100%</span>;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span><span class="hljs-selector-class">.u-1of2</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">50%</span>;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span><span class="hljs-selector-class">.u-1of3</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">33.3333%</span>;
+}
+
+<span class="hljs-selector-class">.Grid-cell</span><span class="hljs-selector-class">.u-1of4</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">25%</span>;
+}
+</code></pre>
+<h2 id="&#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;"><a name="&#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.3. &#x4E09;&#x3001;&#x5723;&#x676F;&#x5E03;&#x5C40;</h2>
+<p><a href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design" target="_blank">&#x5723;&#x676F;&#x5E03;&#x5C40;</a>)&#xFF08;Holy Grail Layout&#xFF09;&#x6307;&#x7684;&#x662F;&#x4E00;&#x79CD;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x7F51;&#x7AD9;&#x5E03;&#x5C40;&#x3002;&#x9875;&#x9762;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#xFF0C;&#x5206;&#x6210;&#x4E09;&#x4E2A;&#x90E8;&#x5206;&#xFF1A;&#x5934;&#x90E8;&#xFF08;header&#xFF09;&#xFF0C;&#x8EAF;&#x5E72;&#xFF08;body&#xFF09;&#xFF0C;&#x5C3E;&#x90E8;&#xFF08;footer&#xFF09;&#x3002;&#x5176;&#x4E2D;&#x8EAF;&#x5E72;&#x53C8;&#x6C34;&#x5E73;&#x5206;&#x6210;&#x4E09;&#x680F;&#xFF0C;&#x4ECE;&#x5DE6;&#x5230;&#x53F3;&#x4E3A;&#xFF1A;&#x5BFC;&#x822A;&#x3001;&#x4E3B;&#x680F;&#x3001;&#x526F;&#x680F;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071323.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HolyGrail&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HolyGrail-body&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HolyGrail-content&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HolyGrail-nav&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">aside</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HolyGrail-ads&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.HolyGrail</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">100vh</span>;
+  <span class="hljs-attribute">flex-direction</span>: column;
+}
+
+<span class="hljs-selector-tag">header</span>,
+<span class="hljs-selector-tag">footer</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.HolyGrail-body</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.HolyGrail-content</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.HolyGrail-nav</span>, <span class="hljs-selector-class">.HolyGrail-ads</span> {
+  <span class="hljs-comment">/* &#x4E24;&#x4E2A;&#x8FB9;&#x680F;&#x7684;&#x5BBD;&#x5EA6;&#x8BBE;&#x4E3A;12em */</span>
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">12em</span>;
+}
+
+<span class="hljs-selector-class">.HolyGrail-nav</span> {
+  <span class="hljs-comment">/* &#x5BFC;&#x822A;&#x653E;&#x5230;&#x6700;&#x5DE6;&#x8FB9; */</span>
+  <span class="hljs-attribute">order</span>: -<span class="hljs-number">1</span>;
+}
+</code></pre>
+<p>&#x5982;&#x679C;&#x662F;&#x5C0F;&#x5C4F;&#x5E55;&#xFF0C;&#x8EAF;&#x5E72;&#x7684;&#x4E09;&#x680F;&#x6539;&#x4E3A;&#x5782;&#x76F4;&#x5206;&#x5E03;&#x3002;</p>
+<pre><code class="lang-css">@<span class="hljs-keyword">media</span> (max-width: <span class="hljs-number">768px</span>) {
+  <span class="hljs-selector-class">.HolyGrail-body</span> {
+    <span class="hljs-attribute">flex-direction</span>: column;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+  }
+  <span class="hljs-selector-class">.HolyGrail-nav</span>,
+  <span class="hljs-selector-class">.HolyGrail-ads</span>,
+  <span class="hljs-selector-class">.HolyGrail-content</span> {
+    <span class="hljs-attribute">flex</span>: auto;
+  }
+}
+</code></pre>
+<h2 id="&#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;"><a name="&#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.4. &#x56DB;&#x3001;&#x8F93;&#x5165;&#x6846;&#x7684;&#x5E03;&#x5C40;</h2>
+<p>&#x5E38;&#x5E38;&#x9700;&#x8981;&#x5728;&#x8F93;&#x5165;&#x6846;&#x7684;&#x524D;&#x65B9;&#x6DFB;&#x52A0;&#x63D0;&#x793A;&#xFF0C;&#x540E;&#x65B9;&#x6DFB;&#x52A0;&#x6309;&#x94AE;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071324.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;InputAddOn&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;InputAddOn-item&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;InputAddOn-field&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;InputAddOn-item&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.InputAddOn</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.InputAddOn-field</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+</code></pre>
+<h2 id="&#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;"><a name="&#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.5. &#x4E94;&#x3001;&#x60AC;&#x6302;&#x5F0F;&#x5E03;&#x5C40;</h2>
+<p>&#x6709;&#x65F6;&#xFF0C;&#x4E3B;&#x680F;&#x7684;&#x5DE6;&#x4FA7;&#x6216;&#x53F3;&#x4FA7;&#xFF0C;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x56FE;&#x7247;&#x680F;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071325.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Media&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Media-figure&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Media-body&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.Media</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">align-items</span>: flex-start;
+}
+
+<span class="hljs-selector-class">.Media-figure</span> {
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">1em</span>;
+}
+
+<span class="hljs-selector-class">.Media-body</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+</code></pre>
+<h3 id="&#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;"><a name="&#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;" class="anchor-navigation-ex-anchor" href="#&#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.5.1. &#x516D;&#x3001;&#x56FA;&#x5B9A;&#x7684;&#x5E95;&#x680F;</h3>
+<p>&#x6709;&#x65F6;&#xFF0C;&#x9875;&#x9762;&#x5185;&#x5BB9;&#x592A;&#x5C11;&#xFF0C;&#x65E0;&#x6CD5;&#x5360;&#x6EE1;&#x4E00;&#x5C4F;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x5E95;&#x680F;&#x5C31;&#x4F1A;&#x62AC;&#x9AD8;&#x5230;&#x9875;&#x9762;&#x7684;&#x4E2D;&#x95F4;&#x3002;</p>
+<p>&#x8FD9;&#x65F6;&#x53EF;&#x4EE5;&#x91C7;&#x7528;Flex&#x5E03;&#x5C40;&#xFF0C;&#x8BA9;&#x5E95;&#x680F;&#x603B;&#x662F;&#x51FA;&#x73B0;&#x5728;&#x9875;&#x9762;&#x7684;&#x5E95;&#x90E8;&#x3002;</p>
+<p><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071326.png" alt=""></p>
+<p>HTML&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Site&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Site-content&quot;</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>&#x2026;<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p>CSS&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.Site</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">min-height</span>: <span class="hljs-number">100vh</span>;
+  <span class="hljs-attribute">flex-direction</span>: column;
+}
+
+<span class="hljs-selector-class">.Site-content</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+</code></pre>
+<h2 id="&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;"><a name="&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;" class="anchor-navigation-ex-anchor" href="#&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.6. &#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;</h2>
+<p>&#x5BF9;&#x4E8E;&#x7B80;&#x5355;&#x7684;&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;&#xFF0C;Flexbox &#x5E03;&#x5C40;&#x76F8;&#x5F53;&#x7B80;&#x5355;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-comment">/*
+  HTML &#x4EE3;&#x7801;&#x5982;&#x4E0B;
+  &lt;div class=&quot;wrapper&quot;&gt;
+    &lt;section class=&quot;main-column&quot; /&gt;
+    &lt;aside class=&quot;sidebar&quot; /&gt;
+  &lt;/div&gt;
+*/</span>
+
+<span class="hljs-selector-class">.wrapper</span> {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-selector-class">.main-column</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">70%</span>;
+  <span class="hljs-attribute">padding-right</span>: <span class="hljs-number">2rem</span>;
+}
+
+<span class="hljs-selector-class">.sidebar</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">30%</span>;
+}
+</code></pre>
+<p>&#xFF08;&#x5B8C;&#xFF09;</p>
+<h2 id="&#x53C2;&#x8003;&#x94FE;&#x63A5;"><a name="&#x53C2;&#x8003;&#x94FE;&#x63A5;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x94FE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2.16.2.7. &#x53C2;&#x8003;&#x94FE;&#x63A5;</h2>
+<ul>
+<li><a href="http://davidwalsh.name/flexbox-dice" target="_blank">Getting Dicey With Flexbox</a>, by Landon Schropp</li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a></li>
+<li>Dimitar Stojanov, <a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a></li>
+</ul>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>var gitalk = new Gitalk({ "clientID": "44979d2ff8cc5b4ed224", "clientSecret": "20d817e3f9bbdae3422b5c318c55e26da4574b78","repo": "codezxw.github.io","owner": "codezxw", "admin": ["codezxw"],"id": window.location.pathname,"distractionFreeMode": false});gitalk.render("gitalk-container");</script> 
+
+<footer class="footer"><div class="footer__container--normal" alt="
+https://www.codezxw.com/css/layout/flexbox.html
+">
+<img src="data:image/gif;base64,R0lGODdhqgCqAIAAAAAAAP///ywAAAAAqgCqAAAC/4yPqcvtD6OctNqLs968+w+G4kiW5omm6sq27gvH8kzX9u0C+s7zkm7o9YIAIgJ4ECKPxYUv8HwaH0vobqpQKila4a/ZBYuZTG+iWhYjpVZINdrMhq8T9FmND5OTeKx1vcUnl5b2NtaGCDhlt/flAAg515hIZxjJZmcZ90e3eKhI6TdYl/e5qUnIKcfIB+fJ5tYlGnr3WrkZS+SK6Id5m9npNERr9qU1C7p3eejImdx6igvNCmwcXCzobLoa6Kl7y1WKfC39TS3Nyq1Zre19d5y9PPsozqvaTls493zeKymcChY+efZyDYxG8Jm5fcwKxkMoCyC0b+pM7WrG4By8gP8N/W3M93AUKH7BxtELd1LYR4ogPXZrCXPktom1amYs14DhTJnueBLbCbRn0J9CF66kwrAo0aU+mw51qhQqpX0mzPg0+a5exUhYfcHTiDPHsKsOgRHc2qdsWqPgVIbtYLUkPm4iI7LUFxfvy7xqsdG9ENes3LsPPwqkak+nPnd66aVDeritS76MIzyGo9DhKJZ+s3HofDFxREPzcr7F3FGzzXudS4dbVwo26ZqGcYaerDVmbHRrK3j9NYztJFu+bmaGvVAZb+G0B1sOnlWgS7ZgK6POTHzsULRcSUnX1o+mHrfWgWOfGkgq994Yp5FzPVc057eEdyGWOf78eYONQ5r/Ll5Yan/NR11by/AV3mMpfYeKf8oxqJ1y/gzn3oPkgCaZb+x5dk9l2RmXIVmzVWShbLzt9595EKFmS3LyRRcNVje52N1t4KWlIIwuMmefihPq6CCHdfVY44naoZjSZlkNCNKBKjYoYoSr/TVbaxrOSN6SQTrpJEfl2XhZiLlpQCREFI4YYGAGZkjlhcuhx98GZaYio1oF0ojjacDR6d93FDZznJQfwjllfGdJhM116fm4Wo4S9iUmnoSNA6CVg86XH6OTOOqejYvd+OOjbWIYi4k5RoakW5SpuluoQXJEKmQrQgdimx6gKpdijR6pp5ooktRjizCRmSutN8aKZ5i+/wq4pZT4zWSBiZjO+puFPBbLJ6WL/kmTq+19tWenbloLaoccRraet1qqW2q4oxo7raIl7tVrb6uC1aV37mp5VLyaolebY/YKqtqynFrzG7gsNulcdUKKhmZdn6pQW6YLA2tbxhFDHKNpuJGQaL2WZiltfCCGPKhgYML7HIAns1wrx/LKijLAqYFLooZcbssUte+pBh9iP+rnMzuv7YZzz3pVqafAAfeZ8dJvtldnyEkLFpVFBO+YppmFkhVn1dBlqm3W2QWKrqHYNgdfzs8q+7NS01UYYMr0Ygw20KwK5afaj6KZcMdl5ksg3YGiZHLPgL/UtrmTOn6s4LkhqzeWsf8+uynjlUOOa7pQB67kwTDq2jeuVhbJpNAFj+3meBjopKbAng95c+v0vsynrq//HLvH4rX6Nexk64bgmqLqO+/jmb+9ttTCyy2usCQ1/jfLUlXMaHe4L5Uk3XPnveCYUJ89q6SQfwp+8C6zBu1zXCsKpbHa/4R9Qg3FT+699DVXbbn+0l69+tVjer/LH8FE9zjTta9wWMod8FRmF/r9I2nRKhYEPcS+7tXngUZynQQttjX3+Y99R9EfckbnrI6hL4V32hzisNfCFTpQgcU7E6+cQsERzC9+OFThi2K2OKbVbGfMu9XAYAWUxXGLgRybF9MKVETA/Ctwy1oiCQdWxc3/sYOAPTza+2yXxaCFi4oD3N8W7/cU57SrcBeLoALnBsU1nZGIPGNiBVF3xRhy7oBg5Fna4DdBryEQUeWL3rkEWTSNTe2KV2PdoQYZvomNMIho7NcekdjI/tXsM0iLINUySLI8Ka9bMuNV4/pmEOENEmurwxyhYoabNq5RZ/v63/ls9kR+JfFNoGNknnqHsA3NDELMwWCwXlk3w2XvSRtq1wkh2MYhKnKFBJRk8cKTrZbZTlu9e5rDkoXGnJmPmOsSISrNlT5LFpN7vtuk7wDoPXOqkZTp1Fx/oGc51oUtmVwDVDNR+MgO/pNbb4ynK/E1z0jeUmpfdFtCWylQa2qt/zTqfCfDSii5dboKbfMU4NMoCjOL4k1+GR3hRmtXurv9g12JS+VEX6TEZl3KTrhklv5maUek8C2cP4RpSd25U08dxIobTNXyxGQ1lfIQpV7z16kWyKqRNXCohtRjUnPaP6eaEarrgWRNkyrETp4zqGLdVz0ZSkp/qk6adORUFEnHO5smMpsVfFcc1eVNn2VzZ9RLnFFJYdfIVbOqF3UkL0ezv34OS5tsjNstjwnMAraTg2UD0uGQB8r1QaiH88tpAFlYznEuEqc0zeXzdGlayhbqe7CzFS1tOLSydg6du1zZVAGJ0b/aUHXTIqvBbufLGhaWjDncp+5+x9lFrfWXiP+FnkebK8XjxRK45KzuS2W5WtqGMQO5PKoHO8tPthEKuwTto2KDab/QxJS1rmVlpYzUXmEmNqplVK8PKVlZjm6wsl5CZl/zCTeJxZOoNgOpgLV61YfpNrxM+lLDtmo+JTk4jg3qynwbK1zWanabobWog5/a28UCUbX49Rs9SerWw0oSwKJ0YXYNTNsW5qtk3GwaIanZvlXaGJ7kY95INzayBBXymP/d1WxhKUKFUlK/4k1wca804IVKWcI37umqEqi1pQrVpcaNmkzT6t8UgVNhPnzZWKuswdUdr8IMFvNBQEhgDwYTx91c2+X+KWdIsdKYSL2w2nDLXNqdcZR5vmD/OZnMZmd2tMXTJdr2Cg1hmq5YIncMKR4bLddHe1KLtROnh6FsNwqrcsF69OyrKB3mIsd2cKOG7tEw9CtmZY7Qfu5vbuPaY+b+scUwhBSVCTxLwhm0tqY0qQTJ19+97hguxeYxfS18a9GeF5QRfjEtwSssM3c6cu9K7ohliGr0XtesXg5dIbs324VJG7Pilh65pzrrKJvbveQmMmNB/cFt0xvD9RqlAU/o75rW9XNsIt64A67uye7QsOGTKqq7K1jQUlnL9TWetf8dQsTF1nkSDx4mK563FGtV1Uau48O5qswRH1c9h4aqVzEtxuo5Ta5txfVi31snTvYn5GO870qB/8RvT+N8vLUWqR+ZykRTPViT8s2q4mRNMzk6tsERj6YFZfvgGaqS5NdqqJs5bnV6H/eoYDe5CA41bWgzlc2DHjZ7Sw4y8QX5sBxlu4rd3kRJTxmg+uyprQ9e5SzOOJD3Ad6r3cjT+Lo7n2POMjMBzWodNxzkPDWawC+J+fRaHMuk1luRhlnSeJPZ2WRdN+ehzmIuTjO4mwZnVxG7ZKl/VJ72Bennk7K3PY56v4akI7C7NmGq3pposQYyig27cGKZ3pfItuzqA6zg4/dyfQO/ZplLHlYWw5aq6OYj2V0c6hgb/b1CNn61b+v9Qy44TNmOvt23H3RkYlPPWLSnTieL5VDUOdbyc5J/uelfVPY3c3l1LbVHSNiWJfAEVxJFV1FHgOVyUwc4UB3mboXHgGCGAxmogRvIgR3ogR8IgiEogiNIgiVogieIgimogivIgiJYAAA7" width="170" height="170">
+<div class="footer__description--normal"><p class="paragraph footer__author--normal" style="color: #000 !important;">&#x4F7F;&#x7528;&#x624B;&#x673A;&#x626B;&#x7801;&#x67E5;&#x770B;&#x5F53;&#x524D;&#x9875;&#x9762;<sup class="super">&#xAE;</sup></p><p class="paragraph footer__quote--normal" style="color: #000 !important;">&#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51;(www.codezxw.com)&#x63D0;&#x4F9B;&#x7F16;&#x7A0B;&#x7684;&#x57FA;&#x7840;&#x6280;&#x672F;&#x6559;&#x7A0B;, &#x4ECB;&#x7ECD;HTML&#x3001;CSS&#x3001;Javascript&#x3001;Python&#xFF0C;Java&#xFF0C;Ruby&#xFF0C;C&#xFF0C;PHP , MySQL&#x7B49;&#x5404;&#x79CD;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;...</p><div class="footer__main--normal"><p class="paragraph footer__main__paragraph--normal copyright" style="color: #666 !important;">Copyright &#xA9; &#x7A0B;&#x5E8F;&#x5458;&#x81EA;&#x5B66;&#x7F51; all right reserved</p><p class="paragraph footer__main__paragraph--normal footer__modifyTime--normal" style="color: #666 !important;"><span style="color: #666 !important;">&#x66F4;&#x65B0;&#x65E5;&#x671F;</span>
+2019-11-27 15:58:31
+</p></div></div></div><div class="box__issues">
+
+</div></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="table.html" class="navigation navigation-prev " aria-label="Previous page: CSS table布局">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="column.html" class="navigation navigation-next " aria-label="Next page: CSS column布局">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CSS flexbox布局","level":"2.2.16","depth":2,"next":{"title":"CSS column布局","level":"2.2.17","depth":2,"path":"css/layout/column.md","ref":"css/layout/column.md","articles":[]},"previous":{"title":"CSS table布局","level":"2.2.15","depth":2,"path":"css/layout/table.md","ref":"css/layout/table.md","articles":[]},"dir":"ltr"},"config":{"plugins":["insert-logo","chapter-fold","code","-sharing","sharing-plus","anchors","include-codeblock","splitter","page-copyright","expandable-chapters-small","anchor-navigation-ex","custom-favicon","klipse","pageview-count","3-ba","-livereload","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"styles":{"website":"styles/website.css"},"splitter":{},"search":{},"page-copyright":{"wisdom":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识...","noPowered":false,"copyright":"Copyright &#169; 程序员自学网","styles (normal, symmetrical)":"normal","style":"normal","isShowQRCode":true,"timeColor":"#666","utcOffset":"8","format":"YYYY-MM-dd hh:mm:ss","signature":"使用手机扫码查看当前页面","baseUri":"https://www.codezxw.com/","copyrightColor":"#666","description":"更新日期"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"isRewritePageTitle":false,"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":"https://www.codezxw.com/images/favicon.ico","pageview-count":{},"custom-favicon":{},"3-ba":{"configuration":"auto","token":"737beab3da21ecf2001439672b951cff"},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":false,"facebook":true,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"insert-logo":{"style":"background: none; max-height: 120px; min-height: 100px","url":"/images/logo.png"}},"theme":"default","author":"albert","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"程序员自学网","language":"zh-hans","links":{"gitbook":true},"gitbook":"*","description":"程序员自学网(www.codezxw.com)提供编程的基础技术教程, 介绍HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识..."},"file":{"path":"css/layout/flexbox.md","mtime":"2019-11-27T07:58:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-10T14:13:34.937Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
